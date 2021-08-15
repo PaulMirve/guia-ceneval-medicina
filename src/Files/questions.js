@@ -245,5 +245,328 @@ encontrar.`),
         Además, agrava los trastornos de la fonación, la disartria y disfagia causados por la
         afectación de la motoneurona inferior, con la aparición de sialorrea.`
     ),
+    new Question(
+        `¿ Cuál es el examen de laboratorio prioritario por realizar?`,
+        ['cultivo de moco nasal',
+        'determinación de CPK, TGO y DHL',
+        'citoquímico de LCR',
+        'reacción en cadena de polimerasa'],
+        'cultivo de moco nasal',
+        `segun la GPC la punción de LCR se encuentra contraindicada por existir mayor correlación
+        de riesgo , en este caso el primer paso diagnóstico es realizar cultivo y/o biopsia de material
+        contaminado para establecer patógeno y continuar tratamiento , complementar con
+        paraclínicos y como gold standard de diagnóstico es la TAC.`
+    ),
+    new Question(
+        `Con base en la información expuesta , el diagnóstico para este paciente es:`,
+        ['osteomielitis de huesos nasales',
+        'tumor cerebral',
+        'absceso cerebral',
+        'miastenia gravis'],
+        'absceso cerebral',
+        `La primera interacción para la formación del absceso, es la vía de entrada de los patógenos
+        al SNC, la disemina-ción contigua, representa la vía más común de 75 a 85% de los casos,
+        la vía hematológica es la responsable de 14 a 28%, relacionada a neumonía, empiemas y
+        endocarditis, entre otras. Y, por último, la diseminación directa (secundaria a drenajes
+        ventriculares, colocación de catéteres epidurales, trauma craneoencefálico, implantes
+        cocleares y procedimientos faciales) cuenta con 10% de las vías de entrada.
+        Los factores del huésped que predisponen a la forma- ción del absceso cerebral son:1.
+        Físicos (trauma y cirugías).2. Inmunosupresión como cardiopatías congénitas, enfermedad
+        De Osler-Weber-Rendu, deficiencias del com- plemento, neoplasias, uso de esteroides,
+        bronquiectasias, infección por VIH, entre otras.`
+    ),
+    new Question(
+        `El tratamiento médico de elección es:
+        `,
+        ['antibiótico combinado dirigido y anticomicial',
+        'antihistamínico y mucolítico',
+        'inmunosupresores e inmunoglobulina',
+        'citotóxico y antiinflamatorio no esteroideo'],
+        'antibiótico combinado dirigido y anticomicial',
+        `La concentración plasmática de antibióticos no se correlaciona con la del SNC, esto
+        relacionado con las pro- piedades físicas del antibiótico, así como su habilidad para cruzar
+        la barrera hematoencefálica.
+        La penicilina, ampicilina, cefuroxima, cloranfenicol, TMP/SMZ, ceftazidima, metronidazol,
+        linezolid y piperacilina/tazobactam demuestran concentraciones te- rapéuticas
+        intracraneales adecuadas y pueden ser admi- nistradas como monoterapia o en
+        combinación de prime- ra elección.`
+    ),
+    new Question(
+        `Una paciente de 12 años vive en una casa hogar. Se desconocen antecedentes
+        heredo-familiares y personales patológicos. Después de dos semanas de un cuadro
+        respiratorio alto, presenta artralgias con flogosis en grandes articulaciones que cambian de
+        localización, con duración de dos a tres días en cada articulación, epistaxis anterior bilateral
+        de aparición espontánea y fiebre alta no cuantificada. Desde hace 48 horas presenta disnea
+        de pequeños esfuerzos y palpitaciones. En la exploración física se detecta un peso de 30kg,
+        estatura de 1.40 cm, FC 180/min, FR de 40/min, y T de 38 C, se observa diaforético, con
+        taquipnea, en posición semisentado, cianosis en labios y lechos subungueales, plétora
+        yugular bilateral. En la auscultación cardiaca se perciben ruidos cardiacos rítmicos,
+        disminuidos de intensidad, con soplo protodiastólico grado II en foco aórtico; en la
+        auscultación pulmonar con abundantes estertores subcrepitantes diseminados. Se palpa
+        hepatomegalia de 1- 2 cm en líneas convencionales, no hay esplenomegalia. La rodilla
+        derecha y el codo izquierdo está aumentados de volumen, enrojecidos y con disminución de
+        la movilidad pasiva y activa por dolor.
+        Con base en la historia clínica mostradas, ¿Cuál es el diagnóstico presuntivo?`,
+        ['Endocarditis bacteriana subaguda',
+        'Lupus eritematoso sistémico',
+        'Artritis reumatoide juvenil',
+        'Fiebre reumática aguda'],
+        'Fiebre reumática aguda',
+        `Segun la gpc investigar Antecedentes a investigar en sospecha de fiebre reumática
+        Faringoamigdalítis por EBHGA Condiciones de la vivienda adversas. Familiares con fiebre
+        reumática. Síntomas y signos más comunes de la fiebre reumática
+        Criterios de Jones: el diagnóstico de fiebre reumática se establece con la presencia, en un
+        primer episodio, de dos criterios mayores o de un criterio mayor y dos menores, y en un
+        episodio recurrente, además, con tres criterios menores, más la evidencia de un cuadro
+        precedente de infección por estreptococo beta hemolítico del grupo A.
+        Criterios mayores
+        Poliartritis. Usualmente es asimétrica y migratoria, pero puede ser aditiva, que afecta
+        grandes articulaciones. Corea. Consiste en movimientos involuntarios, incoordinados
+        especialmente en manos, pies, lengua y cara, que desaparecen con el sueño y pueden
+        afectar un solo lado del cuerpo (hemicorea). Afecta con mayor frecuencia a las mujeres en
+        la adolescencia. Se observa en signos la incapacidad para mantener la protrusión de la
+        lengua.
+        Carditis. Afecta principalmente las válvulas mitral y aórtica. Al principio produce
+        regurgitación valvular. Se presenta como un soplo holosistólico apical con o sin soplo de
+        flujo mesodiastólico, o un soplo diastólico temprano en la base del corazón (regurgitación
+        aórtica). Presenta un aspecto característico en la ecocardiografía, que confirma el
+        diagnóstico.`
+    ),
+    new Question(
+        `¿Qué estudios de laboratorio se requieren para confirmar el diagnóstico?`,
+        ['Factor reumatoide, proteína C reactiva, anticuerpos anti CCP',
+        'Citología hemática, proteína C reactiva, antiestreptolisinas',
+        'Hemocultivo, citología hemática examen general orina anticuerpos antinuclearesomplemento examen general de orina',
+        'Anticuerpos antinucleares, complemento, examen general de orina'],
+        'Citología hemática, proteína C reactiva, antiestreptolisinas',
+        `Dentro de los criterios menores de jones se encuentran diversos parametros :Reactantes de
+        fase aguda: la velocidad de sedimentación globular (VSG) y la proteína C reactiva (PCR)
+        están elevadas, habitual- mente, por encima de 50 mm y con la PCR de más de 50. Las
+        mucoproteínas también están aumentadas. Cursa con leucocitosis, elevación del
+        complemento y alteraciones en el proteinograma con las alfa-2 y las gammaglobulinas
+        aumentadas. ademas Son signos biológicos de infección reciente. Se comprueba una
+        elevación casi constante de los anticuerpos estreptocócicos, principalmente, el título de
+        antiestreptolisinas.`
+    ),
+    new Question(
+        `¿Cuál es el tratamiento farmacológico indicado para este paciente?`,
+        ['Furosemida, digoxina, prednisona y penicilina',
+        'Antiinflamatorios no esteroideos, espironolactona , digoxina y metrotexate',
+        'Hidroxicloroquina, ciclofosfamida, furosemida y azatriopina',
+        'Anticoagulantes, aminoglucósidos, espironolactona y digoxina'],
+        'Furosemida, digoxina, prednisona y penicilina',
+        `Tratamiento antibiótico: se usa penicilina procaína 600 000 U cada 12 horas durante diez
+        días, seguidas de penicilina benzatina 600 000-900 000 U semanales y pasada la fase
+        aguda se inicia la quimiopro laxis con- tinuada. Se usan en los pacientes con afectación
+        cardiaca grave con fallo cardiaco o pericarditis y en casos con recidiva de FR con secuela
+        cardiaca anterior. Se utiliza la prednisona, por vía oral, a 2 mg/kg/ día, en cuatro tomas,
+        durante diez días reba- jando a 1 mg/kg/día diez días más y posteriormente Otras medidas:
+        consiste en el tratamiento de las complicaciones, como la insu ciencia cardiaca, que precisa
+        diuréticos y digital.`
+    ),
+    new Question(
+        `Una paciente de 23 años, con 29 SDG normo evolutivas, acude a consulta y refiere que
+        desde hace 72 horas inicio con fiebre de hasta 39°C además, presenta cefalea intensa,
+        odinofágia importante, hiperoxia, mialgias considerables, malestar general, rinorrea hialina
+        abundante y tos no productiva en accesos que aumentó desde hace 24 horas. Se agregó
+        cianosis ungueal y en las últimas 6 horas cursa con aumento de trabajo respiratorio,
+        angustia, diaforesis y palpitaciones. Desde hace 2 días recibe claritromicina y acetaminofén,
+        sin registrarse mejoría. No se auscultan estertores alveolares, predomina la hipoaereación
+        universal. La BH y QS de 27 elementos son normales. Se efectúa una telerradiografía de
+        tórax con mandil de plomo abdominal y se observa lo siguiente. Con base en los datos clínicos, ¿Cuál es el diagnóstico de la paciente?
+        `,
+        ['Vasculitis pulmonar',
+        'Neumonía de focos múltiples',
+        'Influenza epidémica',
+        'Enfermedad de legionario'],
+        'Influenza epidémica',
+        `Neumonía no podría ser ya que lleva dos días con tratamiento y no ha mejorado además de
+        que no proporciona datos para clasificación de crub 65.
+        Legionella se encuentra en agua de torres de refrigeración de aire acondicionado y
+        condensadores evaporantes y en el suelo en lugares de excavación. Los antibióticos como
+        la eritromicina, (el cual no ha tenido mejoría ) el levaquin o la azitromicina parecen ser
+        eficaces en el tratamiento de la enfermedad.
+        `
+    ),
+    new Question(
+        `¿Qué estudio de laboratorio establece el diagnóstico de certeza?
+        `,
+        ['PCR',
+        'cultivo de expectoración',
+        'gasometría arterial',
+        'IgM contra legionella'],
+        'PCR',
+        `La GPC de la secretaría de salud establece que el método de diagnóstico más sensible y
+        específico es la PCR (prueba confirmatoria); también se cuenta con detección de antígenos
+        por inmunofluorescencia y pruebas diagnósticas rápidas con resultados en 10-30 minutos,
+        se emplean muestras nasales obtenidas con hisopos preferentemente en los primeros 5
+        días desde la aparición de los síntomas.`
+    ),
+    new Question(
+        `¿ Que elemento de la telerradiografía se considera relevante?`,
+        [ 'Infiltrado alveolar',
+        'Ocupación intersticial',
+        'Congestión vascular',
+        'Cardiomegalia'],
+        'Infiltrado alveolar',
+        `Rx de tórax: Infiltrados alveolares difusos bilaterales.
+        Prevención diagnóstico y tratamiento de la influenza estacional.`
+    ),
+    new Question(
+        `¿Cuál es el tratamiento farmacológico de elección?`,
+        ['Imipenem', 'Furosemida', 'Prednisona', 'Oseltamivir'],
+        'Oseltamivir',
+        `Durante una infección por el nuevo virus de influenza A (H1N1) sin complicaciones
+        secundarias podría utilizarse el oseltamivir o zanamivir durante el embarazo. 5.
+        Se sugiere utilizar oseltamivir en casos de influenza enfermedad grave o complicada grave
+        o complicada grave o complicada, durante el embarazo.prevención diagnóstico y
+        tratamiento de la influenza estacional.`
+    ),
+    new Question(
+        `Un lactante de 14 meses es llevado a consulta por presentar cuadro, de 24 horas de
+        evolución, manifestado por fiebre intermitente de 38° C que cede con administración de
+        antipiréticos, rinorrea hialina abundante y tos seca progresiva en accesos. Durante la
+        exploración física se observó hidratado, afebril, con dificultad respiratoria manifestada por
+        tiraje intercostal leve y retracción Xifoidea leve, en la auscultación se muestran estertores
+        crepitantes finos y sibilancias al final de la espiración, por lo que se sospecha de
+        bronquiolitis.
+        De acuerdo con los datos clínicos, ¿cuál es el diagnóstico diferencial del paciente?`,
+        ['Cuerpo extraño en vía aérea',
+        'Neumonía',
+        'Laringotraqueobronquitis',
+        'Crisis asmática'],
+        'Neumonía',
+        `Cuando la temperatura es mayor a 39°C (axilar), se recomienda buscar complicaciones u
+        otras posibles enfermedades como diagnósticos diferenciales que son:
+        Neumonía, Laringotraqueomalacia, Aspiración de cuerpo extraño, Reflujo gastroesofágico.
+        GPC diagnóstico y tratamiento de bronquiolitis aguda en niños/niñas en el primer nivel de
+        atención`
+    ),
+    new Question(
+        `Un paciente de 15 años se presenta con su madre refiere malestar general y anorexia, y
+        hace un par de días observó lesiones en los carrillos como aftas blancas en la exploración
+        física se detecta T de 37.8°C, mal estado general, rinorrea hialina y ojos llorosos; presenta
+        erupción en piel de color eritematoso maculopapular, predominantemente en tronco, con
+        inicio en cara y distribución en todo el cuerpo; se detectan adenomegalias. La madre no
+        recuerda cuales vacunas le han aplicado.
+        Con base en el cuadro clínico que presenta el paciente el diagnóstico presuncional es:`,
+        ['Rubéola', 'Sarampión', 'Escarlatina', 'Varicela'],
+        'Sarampión',
+        `Fase pre-eruptiva: Fiebre, malestar, conjuntivitis, lagrimeo, edema palpebral y tos. Manchas
+        de KOPLIK: Enantema blanco puntiforme en carrillo a nivel de 2dos molares. Fase
+        eruptiva: Exantema maculo-papular eritematoso que desaparece a la presión.
+        GPC prevención diagnóstico y tratamiento del paciente pediátrico con sarampión.`
+    ),
+    new Question(
+        `El principal diagnóstico diferencial de esta enfermedad es:`,
+        ['Roséola', 'Varicela', 'Escarlatina', 'Rubeola'],
+        'Rubeola',
+        `El diagnóstico diferencial del sarampión debe hacerse con otras enfermedades eruptivas
+        febriles con un curso clínico semejante al sarampión tales como RUBÉOLA, escarlatina,
+        dengue y exantema súbito.
+        GPC prevención diagnóstico y tratamiento del paciente pediátrico con sarampión.`
+    ),
+    new Question(
+        ` El tratamiento de elección en este caso es:
+        `,
+        ['Alcanfor',
+        'Antihistamínico tópico',
+        'Paracetamol',
+        'Esteroides'],
+        'Paracetamol',
+        `VITAMINA A (>2 años 200 mil) … Fiebre: Paracetamol (Baja toxicidad)…. Adecuado aporte
+        de nutrientes y líquidos.
+        No existe un tratamiento específico del sarampión, por lo que los pacientes infectados
+        deben recibir un manejo de apoyo para prevenir complicaciones graves.
+        GPC prevención diagnóstico y tratamiento del paciente pediátrico con sarampión.`
+    ),
+    new Question(
+        `La complicación más frecuente de esta enfermedad en este grupo etario es:`,
+        ['Infertilidad', 'Neumonía', 'Encefalitis', 'Sordera'],
+        'Encefalitis',
+        `+ frecuente: Neumonía (56-80%), 2da CRUP 50% +
+        Grave: Agudo: Encefalitis desmielinizante (2 sem).....GPC prevención diagnóstico y
+        tratamiento del paciente pediátrico con sarampión
+        `
+    ),
+    new Question(
+        `Una paciente de 69 años acude a consulta por dolor en rodilla derecha, limitación
+        funcional para subir y bajar escaleras, además de dolor en manos el cual es asimétrico y de
+        predominio derecho. en la EF se detecta aumento en volumen en articulación
+        interfalángicas distales de la mano derecha, la rodilla con limitación a la flexión.
+        La hipótesis diagnóstica en esta paciente es:`,
+        ['Artritis gotosa',
+        'Tendinitis patelar',
+        'Osteoartrosis',
+        'Artritis reumatoide'],
+        'Artritis gotosa',
+        `Respuesta: GPC SSA-216-09 de Artritis Gotosa, De acuerdo a la clasificación de artritis
+        gotosa con 1 o más criterios: 1) presencia de cristales urato monosodico en liquido articular
+        , 2) evidencia de tofo que contiene uratos, 3) 6 o mas caract clínicas,de laboratorio y
+        radiológicas a continuación: 3.1) mas de un ataque de artritis aguda , 3.2) inflamación
+        máxima desarrollada en 1 dia, 3.3)ataque de monoartritis, 3.4) enrojecimiento observados
+        sobre las articulaciones, 3.5) dolor o inflamación en la 1°era articulación metatarsofalagica,
+        3.6) ataque unilateral de la primera articulación metatarsofalangica, 3.7)ataque unilateral de
+        la articulación tarsal, 3.8) presencia o sospecha de tofo , 3.9) hiperuricemia , 3.10)
+        inflamación asimétrica en una articulación como se observa en imágenes radiológicas, 3.11)
+        quiste subcortical sin erosiones en imágenes radiológicas, 3.12 ) cultivo de liquido articular
+        para microorganismos durante el ataque.
+        Diagnosticos diferenciales: pseudogota, artritis séptica y artritis reumatoide (simétrica y
+        oliarticular , nódulos reumatoideos son firmes y no están en áreas extensoras).`
+    ),
+    new Question(
+        `Se solicita una radiografía con proyección anteroposterior de mano, esperando encontrar
+        disminución en:`,
+        ['espacio articular',
+        'densidad de partes blandas',
+        'espacio a nivel de falanges proximales',
+        'espacios corticales'],
+        'densidad de partes blandas',
+        ``
+    ),
+    new Question(
+        `El tratamiento de elección es con:`,
+        ['Esteroides e inmovilización',
+        'Metrotexate y AINES',
+        'Colchicina e inmovilización',
+        'Reposo articular y AINES'],
+        'Colchicina e inmovilización',
+        `Ataque agudo de gota: tratamiento de primera elección: colchicina oral y AINES
+        Se da tto con AINES (los de mayor eficacia son indometacina, diclofenaco, tenoxicam,
+        naproxenom etoricoxib de 4 a 7 dias , con dosis altas los 3-4 primeros dias y teniendo
+        mantenimiento por los 7 a 10 dias. COLCHICINA: administrar en las primeras 24 hrs
+        preferentemente (dosis de 0.5 mg cada 4 hrs, dosis normal usada es 0.5 a 1.5 mg /dia via
+        oral)
+        `
+    ),
+    new Question(
+        `¿Cuál es el tratamiento inicial de elección para la rehabilitación de rodilla?`,
+        ['Ejercicios en bicicleta',
+        'Fortalecimiento del cuádriceps',
+        'Ejercicios a contra peso',
+        'Caminata'],
+        'Caminata',
+        `Respuesta: se deben evitar actividades físicas intensa por que el trauma de las
+        articulaciones propicia ataques agudos de gota. La actividad física debe ser moderada. Se
+        recomienda realizar ejercicio de bajo impacto todos los dias`
+    ),
+    new Question(
+        `Una paciente nulípara de 55 años acude a consulta por distención abdominal, en estos
+        meses su habito intestinal cambio de evacuar diariamente a cada 2 días, no ha sangrado
+        por recto o vagina, ni disminución de peso, cuenta con antecedentes de diabetes mellitus en
+        tratamiento desde hace 5 años, durante la EF se palpa tumor en cuadrante inferior derecho
+        de aprox 10 cm, no hay cambios en la coloración y temperatura de la piel, refiere dolor leve
+        a la palpación del mismo. El diagnóstico diferencial más probable es cáncer`,
+        ['Ovárico', 'De colon', 'Endometrio', 'Metastasico'],
+        'Ovárico',
+        `Respuesta: de acuerdo a la GPC tumor pélvico ginecológico IMSS-511-11, El 90% de los
+        canceres pelvicos ginecológicos son de origen ovárico en EUA , Y en mexico el cáncer de
+        ovario es la primera causa de muerte por cáncer ginecológico y es la cuarta por cáncer en
+        todas las mujeres.
+        Aunque la síntomas no son patognomónicos el dolor pélvico o abdominal persistente ( más
+        de 2 semanas ), distensión abdominal , cambios en el hábito intestinal ( estreñimiento ,
+        heces acintadas), molestias urinarias ( poliuria , urgencia urinaria) son manifestaciones
+        frecuentes cuando está involucrado el peritoneo.`
+    ),
 ];
 export default questions;
