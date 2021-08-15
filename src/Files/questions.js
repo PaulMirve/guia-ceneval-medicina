@@ -57,12 +57,12 @@ encontrar.`),
     medianos esfuerzos , sibilancias en esfuerzo físico. a la exploración física presenta cianosis
     ungueal y de mucosa oral, saturación de pulso 79% al aire ambiente, síndrome de
     rarefacción y espirometría con obstrucción al flujo aéreo grado severo.
-    Las manifestaciones clínicas que apoyan el diagnóstico en este paciente son:`, 
-    [' índice tabáquico, tos y sibilancias',
+    Las manifestaciones clínicas que apoyan el diagnóstico en este paciente son:`,
+        [' índice tabáquico, tos y sibilancias',
+            'tos crónica, productiva y disnea',
+            'saturación de 79%, cianosis y disnea',
+            'disnea, cianosis y sibilancias'],
         'tos crónica, productiva y disnea',
-        'saturación de 79%, cianosis y disnea',
-        'disnea, cianosis y sibilancias'], 
-        'tos crónica, productiva y disnea', 
         `La GPC de diagnóstico y tratamiento de la enfermedad pulmonar obstructiva crónica: se
     podrá considerar el DX de EPOC en personas mayores de 35 años con tos crónica y con
     factores de riesgo para Epoc y los siguientes síntomas: Disnea al ejercicio, tos crónica ,
@@ -87,9 +87,9 @@ encontrar.`),
     new Question(
         `El diagnóstico diferencial es:`,
         ['sarampión',
-        'varicela escarlatina',
-        'escarlatina',
-        'eccema numular'],
+            'varicela escarlatina',
+            'escarlatina',
+            'eccema numular'],
         'sarampión',
         `Debido a la temperatura y al patrón del exantema maculopapular con progresión
         cefalocaudal hablamos de Sarampión razón por la cual manifestación clave sería las
@@ -114,9 +114,9 @@ encontrar.`),
         ¿Qué manifestaciones clínicas presentes en la paciente son clave para el padecimiento con
         el que cursa?`,
         ['fiebre, irritación y palpitaciones',
-        'dolor abdominal bajo, leucorrea y dispareunia',
-        'leucorrea, fiebre y disuria',
-        'dolor abdominal bajo, malestar general y palpitaciones'],
+            'dolor abdominal bajo, leucorrea y dispareunia',
+            'leucorrea, fiebre y disuria',
+            'dolor abdominal bajo, malestar general y palpitaciones'],
         'dolor abdominal bajo, leucorrea y dispareunia',
         `La paciente cursa por un cuadro de vaginosis bacteriana la cual la GPC Prevención,
         diagnóstico y tratamiento de vaginitis infecciosa en mujeres de edad reproductiva en el
@@ -126,10 +126,10 @@ encontrar.`),
     ),
     new Question(
         `¿Qué interacción tiene el alcohol con el tratamiento farmacológico prescrito ?`,
-        [ 'aumenta el riesgo de lesión renal',
-        'disminuye la absorción intestinal',
-        'aumenta sus efectos tóxicos',
-        'se produce efecto antabuse'],
+        ['aumenta el riesgo de lesión renal',
+            'disminuye la absorción intestinal',
+            'aumenta sus efectos tóxicos',
+            'se produce efecto antabuse'],
         'se produce efecto antabuse',
         `El tratamiento con Metronidazol puede ser inadecuado combinado con la ingesta de alcohol
         por que provoca que las moléculas de alcohol no puedan metabolizarse para su correcta
@@ -149,9 +149,9 @@ encontrar.`),
         citrato de clomifeno.
         Con base en los datos clínicos que presenta la paciente el síndrome que se integra es`,
         ['hiperplasia suprarrenal',
-        'de cushing',
-        'hiperandrogenismo secundario a fármacos',
-        'de ovario poliquístico'],
+            'de cushing',
+            'hiperandrogenismo secundario a fármacos',
+            'de ovario poliquístico'],
         'de ovario poliquístico',
         `Hablamos de una mujer en edad fértil que cursa por cuadro de trastorno menstrual, que
         impide que la paciente se embarace , datos de hiperandrogenismo (hirsutismo, acné,
@@ -167,9 +167,9 @@ encontrar.`),
         crepitantes periféricos, broncofonía , pectoriloquia , matidez y submatidez.
         Con los datos clínicos mostrados ¿qué síndrome integra este paciente?`,
         ['Condensación pulmonar',
-        'Rarefacción pulmonar',
-        'Atelectasia pulmonar',
-        'Derrame pleural'],
+            'Rarefacción pulmonar',
+            'Atelectasia pulmonar',
+            'Derrame pleural'],
         'Condensación pulmonar',
         ``
     ),
@@ -191,10 +191,10 @@ encontrar.`),
         exploración física se detecta leve disfonía, edema de cara y miembro torácico derecho y
         flebectasias en estos sitios. Con esta manifestación en el paciente se infiere que se trata del
         síndrome de?`,
-        [ 'Vena ácigos',
-        'Bud Chiarri',
-        'Vena cava inferior',
-        'Vena cava superior'],
+        ['Vena ácigos',
+            'Bud Chiarri',
+            'Vena cava inferior',
+            'Vena cava superior'],
         'Vena cava superior',
         `Las manifestaciones más frecuentes son edema facial, disnea, tos, ortopnea, edema en
         brazos y cuello y cefalea. Los hallazgos más frecuentes a la exploración clínica son el
@@ -209,9 +209,9 @@ encontrar.`),
         pectoriloquia disminuida. Con los datos mostrados, ¿qué síndrome pleuropulmonar se
         integra en el paciente?`,
         ['Derrame pleural',
-        'Condensación',
-        'Cavitación',
-        'Neumotórax'],
+            'Condensación',
+            'Cavitación',
+            'Neumotórax'],
         'Neumotórax',
         `'Derrame pleural',
         'Condensación',
@@ -232,9 +232,9 @@ encontrar.`),
         ¿Cuál es el síndrome que se puede establecer con base en la afección neurológica?
         `,
         ['neurona motora inferior',
-        'plexo sacro',
-        'neurona motora superior',
-        'denervación distal'],
+            'plexo sacro',
+            'neurona motora superior',
+            'denervación distal'],
         'neurona motora superior',
         `El síndrome de motoneurona superior (piramidal) consiste en debilidad, sobre todo de
         musculatura extensora de extremidades superiores y de la flexora de las inferiores, torpeza
@@ -248,9 +248,9 @@ encontrar.`),
     new Question(
         `¿ Cuál es el examen de laboratorio prioritario por realizar?`,
         ['cultivo de moco nasal',
-        'determinación de CPK, TGO y DHL',
-        'citoquímico de LCR',
-        'reacción en cadena de polimerasa'],
+            'determinación de CPK, TGO y DHL',
+            'citoquímico de LCR',
+            'reacción en cadena de polimerasa'],
         'cultivo de moco nasal',
         `segun la GPC la punción de LCR se encuentra contraindicada por existir mayor correlación
         de riesgo , en este caso el primer paso diagnóstico es realizar cultivo y/o biopsia de material
@@ -260,9 +260,9 @@ encontrar.`),
     new Question(
         `Con base en la información expuesta , el diagnóstico para este paciente es:`,
         ['osteomielitis de huesos nasales',
-        'tumor cerebral',
-        'absceso cerebral',
-        'miastenia gravis'],
+            'tumor cerebral',
+            'absceso cerebral',
+            'miastenia gravis'],
         'absceso cerebral',
         `La primera interacción para la formación del absceso, es la vía de entrada de los patógenos
         al SNC, la disemina-ción contigua, representa la vía más común de 75 a 85% de los casos,
@@ -279,9 +279,9 @@ encontrar.`),
         `El tratamiento médico de elección es:
         `,
         ['antibiótico combinado dirigido y anticomicial',
-        'antihistamínico y mucolítico',
-        'inmunosupresores e inmunoglobulina',
-        'citotóxico y antiinflamatorio no esteroideo'],
+            'antihistamínico y mucolítico',
+            'inmunosupresores e inmunoglobulina',
+            'citotóxico y antiinflamatorio no esteroideo'],
         'antibiótico combinado dirigido y anticomicial',
         `La concentración plasmática de antibióticos no se correlaciona con la del SNC, esto
         relacionado con las pro- piedades físicas del antibiótico, así como su habilidad para cruzar
@@ -308,9 +308,9 @@ encontrar.`),
         la movilidad pasiva y activa por dolor.
         Con base en la historia clínica mostradas, ¿Cuál es el diagnóstico presuntivo?`,
         ['Endocarditis bacteriana subaguda',
-        'Lupus eritematoso sistémico',
-        'Artritis reumatoide juvenil',
-        'Fiebre reumática aguda'],
+            'Lupus eritematoso sistémico',
+            'Artritis reumatoide juvenil',
+            'Fiebre reumática aguda'],
         'Fiebre reumática aguda',
         `Segun la gpc investigar Antecedentes a investigar en sospecha de fiebre reumática
         Faringoamigdalítis por EBHGA Condiciones de la vivienda adversas. Familiares con fiebre
@@ -335,9 +335,9 @@ encontrar.`),
     new Question(
         `¿Qué estudios de laboratorio se requieren para confirmar el diagnóstico?`,
         ['Factor reumatoide, proteína C reactiva, anticuerpos anti CCP',
-        'Citología hemática, proteína C reactiva, antiestreptolisinas',
-        'Hemocultivo, citología hemática examen general orina anticuerpos antinuclearesomplemento examen general de orina',
-        'Anticuerpos antinucleares, complemento, examen general de orina'],
+            'Citología hemática, proteína C reactiva, antiestreptolisinas',
+            'Hemocultivo, citología hemática examen general orina anticuerpos antinuclearesomplemento examen general de orina',
+            'Anticuerpos antinucleares, complemento, examen general de orina'],
         'Citología hemática, proteína C reactiva, antiestreptolisinas',
         `Dentro de los criterios menores de jones se encuentran diversos parametros :Reactantes de
         fase aguda: la velocidad de sedimentación globular (VSG) y la proteína C reactiva (PCR)
@@ -351,9 +351,9 @@ encontrar.`),
     new Question(
         `¿Cuál es el tratamiento farmacológico indicado para este paciente?`,
         ['Furosemida, digoxina, prednisona y penicilina',
-        'Antiinflamatorios no esteroideos, espironolactona , digoxina y metrotexate',
-        'Hidroxicloroquina, ciclofosfamida, furosemida y azatriopina',
-        'Anticoagulantes, aminoglucósidos, espironolactona y digoxina'],
+            'Antiinflamatorios no esteroideos, espironolactona , digoxina y metrotexate',
+            'Hidroxicloroquina, ciclofosfamida, furosemida y azatriopina',
+            'Anticoagulantes, aminoglucósidos, espironolactona y digoxina'],
         'Furosemida, digoxina, prednisona y penicilina',
         `Tratamiento antibiótico: se usa penicilina procaína 600 000 U cada 12 horas durante diez
         días, seguidas de penicilina benzatina 600 000-900 000 U semanales y pasada la fase
@@ -376,9 +376,9 @@ encontrar.`),
         tórax con mandil de plomo abdominal y se observa lo siguiente. Con base en los datos clínicos, ¿Cuál es el diagnóstico de la paciente?
         `,
         ['Vasculitis pulmonar',
-        'Neumonía de focos múltiples',
-        'Influenza epidémica',
-        'Enfermedad de legionario'],
+            'Neumonía de focos múltiples',
+            'Influenza epidémica',
+            'Enfermedad de legionario'],
         'Influenza epidémica',
         `Neumonía no podría ser ya que lleva dos días con tratamiento y no ha mejorado además de
         que no proporciona datos para clasificación de crub 65.
@@ -392,9 +392,9 @@ encontrar.`),
         `¿Qué estudio de laboratorio establece el diagnóstico de certeza?
         `,
         ['PCR',
-        'cultivo de expectoración',
-        'gasometría arterial',
-        'IgM contra legionella'],
+            'cultivo de expectoración',
+            'gasometría arterial',
+            'IgM contra legionella'],
         'PCR',
         `La GPC de la secretaría de salud establece que el método de diagnóstico más sensible y
         específico es la PCR (prueba confirmatoria); también se cuenta con detección de antígenos
@@ -404,10 +404,10 @@ encontrar.`),
     ),
     new Question(
         `¿ Que elemento de la telerradiografía se considera relevante?`,
-        [ 'Infiltrado alveolar',
-        'Ocupación intersticial',
-        'Congestión vascular',
-        'Cardiomegalia'],
+        ['Infiltrado alveolar',
+            'Ocupación intersticial',
+            'Congestión vascular',
+            'Cardiomegalia'],
         'Infiltrado alveolar',
         `Rx de tórax: Infiltrados alveolares difusos bilaterales.
         Prevención diagnóstico y tratamiento de la influenza estacional.`
@@ -432,9 +432,9 @@ encontrar.`),
         bronquiolitis.
         De acuerdo con los datos clínicos, ¿cuál es el diagnóstico diferencial del paciente?`,
         ['Cuerpo extraño en vía aérea',
-        'Neumonía',
-        'Laringotraqueobronquitis',
-        'Crisis asmática'],
+            'Neumonía',
+            'Laringotraqueobronquitis',
+            'Crisis asmática'],
         'Neumonía',
         `Cuando la temperatura es mayor a 39°C (axilar), se recomienda buscar complicaciones u
         otras posibles enfermedades como diagnósticos diferenciales que son:
@@ -470,9 +470,9 @@ encontrar.`),
         ` El tratamiento de elección en este caso es:
         `,
         ['Alcanfor',
-        'Antihistamínico tópico',
-        'Paracetamol',
-        'Esteroides'],
+            'Antihistamínico tópico',
+            'Paracetamol',
+            'Esteroides'],
         'Paracetamol',
         `VITAMINA A (>2 años 200 mil) … Fiebre: Paracetamol (Baja toxicidad)…. Adecuado aporte
         de nutrientes y líquidos.
@@ -496,9 +496,9 @@ encontrar.`),
         interfalángicas distales de la mano derecha, la rodilla con limitación a la flexión.
         La hipótesis diagnóstica en esta paciente es:`,
         ['Artritis gotosa',
-        'Tendinitis patelar',
-        'Osteoartrosis',
-        'Artritis reumatoide'],
+            'Tendinitis patelar',
+            'Osteoartrosis',
+            'Artritis reumatoide'],
         'Artritis gotosa',
         `Respuesta: GPC SSA-216-09 de Artritis Gotosa, De acuerdo a la clasificación de artritis
         gotosa con 1 o más criterios: 1) presencia de cristales urato monosodico en liquido articular
@@ -518,18 +518,18 @@ encontrar.`),
         `Se solicita una radiografía con proyección anteroposterior de mano, esperando encontrar
         disminución en:`,
         ['espacio articular',
-        'densidad de partes blandas',
-        'espacio a nivel de falanges proximales',
-        'espacios corticales'],
+            'densidad de partes blandas',
+            'espacio a nivel de falanges proximales',
+            'espacios corticales'],
         'densidad de partes blandas',
         ``
     ),
     new Question(
         `El tratamiento de elección es con:`,
         ['Esteroides e inmovilización',
-        'Metrotexate y AINES',
-        'Colchicina e inmovilización',
-        'Reposo articular y AINES'],
+            'Metrotexate y AINES',
+            'Colchicina e inmovilización',
+            'Reposo articular y AINES'],
         'Colchicina e inmovilización',
         `Ataque agudo de gota: tratamiento de primera elección: colchicina oral y AINES
         Se da tto con AINES (los de mayor eficacia son indometacina, diclofenaco, tenoxicam,
@@ -542,9 +542,9 @@ encontrar.`),
     new Question(
         `¿Cuál es el tratamiento inicial de elección para la rehabilitación de rodilla?`,
         ['Ejercicios en bicicleta',
-        'Fortalecimiento del cuádriceps',
-        'Ejercicios a contra peso',
-        'Caminata'],
+            'Fortalecimiento del cuádriceps',
+            'Ejercicios a contra peso',
+            'Caminata'],
         'Caminata',
         `Respuesta: se deben evitar actividades físicas intensa por que el trauma de las
         articulaciones propicia ataques agudos de gota. La actividad física debe ser moderada. Se
@@ -567,6 +567,334 @@ encontrar.`),
         de 2 semanas ), distensión abdominal , cambios en el hábito intestinal ( estreñimiento ,
         heces acintadas), molestias urinarias ( poliuria , urgencia urinaria) son manifestaciones
         frecuentes cuando está involucrado el peritoneo.`
+    ),
+    new Question(
+        `¿Cuál es la opción terapéutica que se debe seleccionar para el principal síntoma de la
+        paciente:
+        `,
+        ['Antiespasmódicos',
+        'Inhibidor de la bomba de protones',
+        'Ablandador de heces',
+        'Metformina'],
+        'Ablandador de heces',
+        ``
+    ),
+    new Question(
+        `El tratamiento quirúrgico de primera elección en esta paciente es:`,
+        ['Ooforectomía',
+        'Histerectomía',
+        'Hemicolectomía',
+        'Laparoscopia'],
+        'Histerectomía',
+        `Cuando se tiene el diagnóstico de cáncer ovárico se recomienda la cirugía
+        estadificadora: 1) lavado peritoneal, 2) histerectomía total abdominal , 3)
+        salpingooforectomía residual, 4) omentectomía infracólica, 5) linfadenectomía pélvica
+        bilateral , linfadenectomía retroperitoneal.`
+    ),
+    new Question(
+        `Una niña de 6 años con cuadros de 3 días de evolución, manifestados por irritabilidad
+        nocturna, llega al servicio de urgencias con fiebre 38°C, malestar general, cefalea, dolor
+        faríngeo, así como máculas, pústulas y vesículas, umbilicadas en cabeza y cuello, se
+        detecta odinofagia, la paciente presenta prurito generalizado, con huellas de rascado en
+        diferentes estadios de evolución, y costras melicéricas, lesiones compatibles con varicela.
+        De acuerdo con el cuadro clínico y el diagnóstico establecido en esta niña el diagnóstico
+        diferencial más probable es`,
+        ['Impétigo',
+        'Sarampión',
+        'Rubeola',
+        'Púrpura de Henoch-Schonlein'],
+        'Impétigo',
+        `El impétigo es uno de los diagnosticos diferenciales para varicela . incidencia en
+        niños entre los 2 a 6 años, frecuente en climas calidos tropicales o subtropicales, presenta
+        lesiones bien delimitadas, multiples en miembros y cara ( localización periorificial alrededor
+        de narinas y boca), las características patognomónicas son las costras melisericas.`
+    ),
+    new Question(
+        `Una paciente de 25 años acude a la consulta por malestar general, astenia, disminución
+        del apetito, adinamia. Refiere retraso menstrual de 5 semanas, EF: se encuentra TEMP
+        37.2°C y adenomegalias retro auriculares, se observa erupción en piel de color eritematoso,
+        predominante en tronco, que inicio en la cabeza y se expandió en todo el cuerpo.
+        Con base en el cuadro clínico de la paciente el diagnostico más probable es:
+        `,
+        ['Escarlatina', 'Roséola', 'Rubeola', 'Sarampión'],
+        'Rubeola',
+        `En los adultos pueden experimentar de 1- 5 dias pródromos como: fiebre leve
+        (37.2 – 37.8°C, dolor de cabeza, malestar general , coriza , conjuntivitis, y adenopatía
+        retroauricular, cervicales o suboccipitales. Seguido de una erupción cutánea que inicia en
+        cara y se extiende por resto del cuerpo en sentido descendente. A medida que se extiende
+        a tronco , va desapareciendo en cara. Exantema maculo papular rosado.`
+    ),
+    new Question(
+        `El principal diagnóstico diferencial de la enfermedad presente en esta paciente es:`,
+        ['Sarampión', 'Varicela', 'Escarlatina', 'Roséola'],
+        'Sarampión',
+        `GPC IMSS- 109-08, PREVENCION, DX, Y TTO DEL PACIENTE PEDIATRICO
+        CON SARAMPION : el sarampión cuenta con cuadros clínicos similares a otras
+        enfermedades exantemáticas: rubeola, escarlatina, dengue, exantema súbito, roséola,
+        Kawasaki, eritema infeccioso .
+        Ruseola o exantema súbito: incubación de 5 -15 dias, fiebre intensa, adenopatía
+        retroauricular, exantema maculopapular en torax y abdomen.
+        Escarlatina: fiebre elevada , malestar general. Odinofagia, adenopatías cervicales,
+        hipertrofia amigdalina con exudado blanquecino, artralgias, exantema maculopapular
+        distribución cefalocaudal puntiforme marcado en frente y mejillas`
+    ),
+    new Question(
+        `Una paciente de 21 años acude a consulta por disnea leve intermitente en los últimos 6
+        meses, asociado a tos productiva. Fuma una cajetilla a la semana desde hace 2 años. En la
+        exploración física se detectan sibilancias difusas bilaterales.
+        Ante la sospecha de bronquitis crónica ¿cuál es el diagnóstico diferencial más probable?`,
+        ['EPOC', 'Asma', 'Neumonía', 'Bronquiolitis'],
+        'Asma',
+        `Según la GPC de ASMA en el adulto, menciona que las principales causas de exacerbación
+        de ASMA son infecciones, bronquitis crónica entre otras, también se asocia el humo de
+        tabaco. Se descarta EPOC por que la edad mínima de instauración diagnóstica es de 35
+        años según la GPC de EPOC, neumonía se descarta porque no menciona el caso clínico
+        datos de infección, y bronquiolitis solo se presenta en niños y es de etiología vira`
+    ),
+    new Question(
+        `Una niña de 10 años es llevada al servicio de urgencias por presentar artralgias,
+        cefalea, malestar general y erupciones en la piel. La madre refiere que su hija ha tenido
+        episodios de infecciones de vías aéreas superiores de manera recurrente; particularmente
+        una de mayor intensidad hace 1 semana. En la exploración física se encuentra con
+        temperatura 38°C, artritis en rodillas, codos y muñecas; en piel de tronco se observan
+        máculas de contorno delimitado y serpenteante con centro pálido.
+        El examen de laboratorio que apoya el diagnóstico en este paciente es:`,
+        ['antiestreptolisinas',
+        'hemaglutinación',
+        'hemocultivo',
+        'Pruebas de función hepáticas'],
+        'antiestreptolisinas',
+        ``
+    ),
+    new Question(
+        `La complicación más frecuente que puede esperarse en esta paciente es:`,
+        ['artritis juvenil',
+        'insuficiencia valvular',
+        'insuficiencia hepática',
+        'sepsi'],
+        'insuficiencia valvular',
+        ``
+    ),
+    new Question(
+        `Con base en el cuadro clínico que presentan esta niña, el pronóstico es:`,
+        ['bueno para la vida, malo para la función',
+        'malo para la vida, bueno para la función',
+        'malo para la vida, malo para la función',
+        'bueno para la vida, bueno para la función'],
+        'malo para la vida, bueno para la función',
+        `Según la GPC de fiebre reumática, esta paciente cumple con criterios para sospechar de
+        este diagnóstico, comenzando con la edad, infecciones de repetición en vías respiratorias
+        (faringoamigdalitis), fiebre, artritis y exantema, el principal agente etiológico relacionada con
+        la aparición de la fiebre reumática es el estreptococo beta hemolítico grupo A, el estándar
+        de oro para diagnóstico de estreptococo beta hemolítico del grupo A es el cultivo faríngeo,
+        en ausencia de esta opción se solicitarán las antiestreptolisinas (mide las estretptolisinas,
+        que son productos extracelulares con propiedad antigénica producida por las bacterias
+        estreptococo Beta hemolíticos), en cuanto a la complicaciones más frecuentes en este caso
+        las valvulares son las más comunes en un 60% afectando principalmente la válvula mitral
+        como dato distintivo de cardiopatía reumática, el resto de manifestaciones suelen
+        desaparecer progresivamente durante el tratamiento, en cuanto al pronóstico es
+        dependiente del grado de las complicaciones por lo que en este momento es malo para la
+        vida por los cuadros repetitivos de infecciones y el riesgo de complicaciones y bueno para la
+        función ya que en este momento no se mencionan datos de complicaciones cardiacas.`
+    ),
+    new Question(
+        `Mujer de 40 años presenta en forma progresiva astenia, cefalgia (principalmente tras un
+            esfuerzo y mareo con los cambios bruscos de posición; posteriormente aparece caída del
+            cabello y fragilidad de uñas. Los ciclos menstruales son de 25 x 10 con sangrado abundante
+            desde hace 2 años. En la exploración física se encuentran con TA de 100/70 mmHg, palidez
+            de tegumentos de +/+++, taquicardia con soplo plurifocal I/IV. El laboratorio reporta 3 000
+            000/µl de eritrocito, hemoglobina de 7.5 g/dl, hematocrito de 23%, VCM de 69.4 µL, HCM de
+            20 pg, CHCM de 28.8 g/dl, leucocitos de 5900/µL, plaquetas 450 000 µL y reticulocitos 9%
+            (cuenta no corregida).
+            Con base en lo datos mostrados, el estudio de laboratorio que precisa el diagnostico en esta
+            paciente es el nivel sérico de:`,
+        [ 'hepcidina',
+        'ferroportina',
+        'hemosiderina',
+        'transferrina'],
+        'transferrina',
+        `Con base en los resultados de laboratorio el más adecuado en esta caso clínico es la toma
+        de transferrina (ya que no está entre las opciones la ferritina que es la prueba más sensible
+        y específico) para confirmar una anemia ferropénica, ya que se trata de un sangrado
+        crónico y la paciente tiene datos clínicos de déficit
+        de hierro (mujeres pre-menopausia y con sangrado menstrual anormal) . Anemia se define
+        en mujeres con un hematocrito < 37 % hemoglobina menos de < 12 g/dl`
+    ),
+    new Question(
+        `Un paciente de 32 años, con diagnóstico de sida, sin apego al tratamiento, acude al
+        servicio de urgencias por presentar diarrea secretora, nauseas, vómito y fiebre intermitente.
+        El agente causal probable de su padecimiento es Cryptosporidium parvum.
+        ¿Qué estudio de laboratorio se requiere realizar para detectar el probable agente causal del
+        cuadro que presenta?`,
+        ['Estudio de heces con tinción de kinyoun modificada',
+        'Biometría hemática',
+        'Coprocultivo',
+        'Frotis sanguíneo grueso'],
+        'Estudio de heces con tinción de kinyoun modificada',
+        `La tinción de kinyoun es el método de elección para este caso ya que sirve para detectar
+        agentes acido-alcohol resistentes (bacterias, paracitos, algunas familias de cryptosporidium)
+        se le denomina modificada porque es una variación de tinción de ziehl-neelsen con la
+        diferencia de que no se calienta la placa, se descarta las otras opciones porque no son
+        indicadas en este agente etiológico.`
+    ),
+    new Question(
+        `Una paciente de 58 años, con menarca a los 10 años, acude al consultorio por presentar
+        en la mama derecha una masa de 5 cm, con bordes irregulares y de consistencia blanda,
+        además de astenia, adinamia y pérdida de peso de aproximadamente 10 kg en el último
+        año.
+        El estudio para confirmar el diagnóstico en esta paciente es:`,
+        ['Ultrasonido mamario',
+        'Biopsia de nódulo mamario',
+        'Radiografía de tórax',
+        'Mastografía'],
+        'Biopsia de nódulo mamario',
+        `Según la GPC el GOLD ESTANDAR es la toma de biopsia para confirmar diagnostico ya
+        que los demás estudios se utilizan de inicio en lesiones sospechosas de malignidad.`
+    ),
+    new Question(
+        `Un hombre de 25 años acude al servicio de Urgencias por dolor abdominal que inició
+        hace 3 días, localizado en la región periumbilical se irradia al cuadrante inferior derecho y se
+        acompaña de náuseas y vómito de contenido alimentario. Además, refiere anorexia y
+        ataque al estado general. En la exploración física se observa que el dolor es menos intenso
+        pero se ha agregado T de 38.5 °C
+        ¿Cuál es el estudio de gabinete requerido para confirmar la sospecha diagnóstica?`,
+        ['Rx simple',
+        'Ultrasonido',
+        'TAC simple',
+        'Resonancia magnética'],
+        'TAC simple',
+        `Según la GPC de diagnóstico y tratamiento de apendicitis, La radiografía simple ya no se
+        considera estudio inicial de elección, el ultrasonido logra la visualización del apéndice solo
+        en 1/3 de los casos solo es de elección en pacientes embarazadas entre el primer y
+        segundo trimestre y niños.
+        La tomografía sensible entre 96-98% y especifica de 83-89% se considera el
+        ESTANDAR DE ORO para diagnóstico de apendicitis puede revelar engrosamiento de
+        pared apendicular > 2 mm y la presencia de apendicolito, flegmón, absceso, liquido libre o
+        apariencia deshilachada de la grasa en fosa iliaca derecha, debe considerarse su uso en
+        mujeres embarazadas en el tercer trimestre solo con duda diagnostica valorar riesgo
+        beneficio.`
+    ),
+    new Question(
+        `Un enfermero de 35 años, siente un chasquido brusco en la región lumbar al momento
+        de cargar a un paciente hospitalizado. Al día siguiente, despierta con un dolor intenso y
+        entumecimiento del dedo gordo del pie derecho. El estudio que ofrece mayor sensibilidad y
+        especificidad para este caso es:`,
+        ['placas radiográficas en proyección AP, lateral y oblicuas',
+        'tomografía axial de columna lumbar con medio de contraste',
+        'resonancia magnética de columna lumbar con medio de contraste',
+        'electromiografía con velocidades de conducción nerviosa'],
+        'tomografía axial de columna lumbar con medio de contraste',
+        `En este caso según la GPC de manejo de trauma de columna, menciona que la TAC y la
+        RM son estudios de elección en lesiones de columna toracolumbares, en este caso
+        específicamente al mencionar la presencia de chasquido podemos sospechar de una
+        espondilolistesis o fractura lo que causaría una compresión medular y el estudio de elección
+        seria la TAC para descartar principalmente la factura, cabe resaltar que el paciente no
+        presenta antecedentes patológicos ni se descarta lesión nerviosa por lo que debe de
+        considerarse el uso de la RM.`
+    ),
+    new Question(
+        `Un paciente de 21 años acude a consulta por que se detectó una tumoración en el
+        cuello. Tiene el antecedente de una tia con cancer de tiroideo; en la exploración física se
+        registran signos vitales normales, cuello cilíndrico, tráquea central, desplazable se palpan
+        adenopatías en niveles II y III del cuello por delante del esternocleidomastoideo derecho;
+        durante la palpación de tiroides se identifica un nódulo en el lóbulo derecho de la glándula,
+        de aproximadamente 1.5 cm
+        ¿Cual es el estudio que establece el diagnóstico del caso?`,
+        ['RMN', 'BAAF', 'USG', 'TAC'],
+        'USG',
+        `Según gpc de tumor maligno de tiroides. El USG de cuello debe ser
+        realizado en pacientes con uno o más nódulos tiroideos palpables.`
+    ),
+    new Question(
+        `Una paciente de 75 años es llevada al servicio de urgencias por la presencia de
+        evacuaciones disminuidas de consistencia y abundantes, malolientes y de color negro
+        intenso. Los familiares refieren que tiene diagnóstico de osteoartrosis de la rodilla izquierda
+        y que toma 250 mg de naproxeno cada 8 horas diariamente desde varios años atrás. Desde
+        hace un mes ingiere, por incremento del dolor 10 mg de ketorolaco cada 8 horas. En la
+        exploración física se detecta FC de 110/min, FR de 20/min y TA de 100/60 mmHg; se
+        observa con palidez ++ de tegumentos y regular estado de hidratación; abdomen plano con
+        peristalsis aumentada de intensidad y se despierta dolor con la palpación media en
+        epigastrio, sin irradiaciones y sin datos de irritación peritoneal. la biometría hemática reporta
+        hemoglobina de 8 g/dL, hematocrito de 25%, leucocitos 12,500/mm3, neutrófilos 60% y
+        plaquetas 160,000/mm3.
+        El estudio de gabinete que establece el diagnóstico de certeza en este caso es:`,
+        ['Serie esofago-gastroduodenal',
+        'Angiografía gástrica',
+        'Gammagrafía con eritrocitos marcados',
+        'Gastroduodenoscopia'],
+        'Gastroduodenoscopia',
+        `Según GPC manejo de úlcera péptica en adultos en el primer y segundo
+        nivel de atención. La endoscopia es la prueba diagnóstica de elección para investigar las
+        lesiones del tracto digestivo superior y presenta un elevado rendimiento diagnóstico para
+        patología orgánica en el paciente con dispepsia.`
+    ),
+    new Question(
+        `Un paciente de 20 años presenta disuria, hipertermia y dolor lumbar de 10 días de
+        evolución. La TA registro 129/80 mmHg, la FC 88/min y la FR 22/min; se despierta dolor con
+        la palpación en la región lumbar. La citometría hemática reporta leucocitosis de 30,000 y el
+        EGO bacteriuria y piocitos. Se solicita urocultivo, reportando Escherichia coli.
+        ¿Cuantas unidades formadoras de colonias se espera encontrar para confirmar el
+        diagnóstico de este paciente?`,
+        ['100', '1,000', '10,000', '100,000'],
+        '100,000',
+        `Según GPC. Nos dice que para el diagnostico de infeccion de vias
+        urinarias el examen microscópico de orina corresponde a bacteriuria de >100,000.`
+    ),
+    new Question(
+        `Un paciente de 50 años obesa con hallazgo de litiasis vesicular, en un chequeo
+        realizado hace 1 año (sin manejo), llega a urgencias con dolor epigástrico intenso y
+        transfictivo acompañado de anorexia, nauseas y vomito. Durante la exploración destaca
+        distensión abdominal, fiebre, taquicardia, deshidratación e ictericia.
+        ¿El estudio de gabinete que establece el diagnóstico de certeza en este caso es?`,
+        ['Placa simple de abdomen',
+        'Ultrasonido abdominal',
+        'Tomografía computada de abdomen',
+        'Panendoscopia de tubo digestivo alto'],
+        'Ultrasonido abdominal',
+        `Según GPC colecistitis y colelitiasis. El ultrasonido abdominal es positivo
+        en el 98% (sensibilidad) de los casos de colelitiasis, realizado por personal experimentado,
+        por lo que es la prueba no invasiva de primera elección.
+        `
+    ),
+    new Question(
+        `Un paciente de 32 años con 6 SDG presenta datos de hiperemesis gravídica. Se
+        establece el diagnóstico de enfermedad trofoblástica y se le realiza un perfil hormonal que
+        reporta la hormona folículo estimulante de 5 UI, luteinizante 10 UI, gonadotropina coriónica
+        humana de 1,000,000 UI y progesterona de <10 ng/mL.
+        ¿Con base en estos datos, el parámetro relacionado con la enfermedad de la paciente
+        corresponde a la hormona?`,
+        ['Luteinizante',
+        'Gonadotropina',
+        'Progesterona',
+        'Folículo estimulante'],
+        'Gonadotropina',
+        `Según GPC de Enfermedad trofoblástica. EL usg tiene un valor limitado,
+        por lo cual es necesario considerar el cuadro clínico y los niveles de BhCG.`
+    ),
+    new Question(
+        `Un hombre de 26 años acude por presentar, desde hace 6 días, astenia, adinamia, dolor
+        de tipo cólico, de intensidad leve a moderada, localizado en cuadrante superior derecho,
+        además de náusea.
+        Refiere que el dia de ayer se agregó emesis de contenido gastroalimentario y sin mejora del
+        dolor. Durante la exploración física se encuentra con escleras ictéricas +, mucosa oral bien
+        hidratada, cardiopulmonar sin compromiso aparente, abdomen blando, depresible y
+        doloroso a la palpación media y profunda en hipocondrio derecho, murphy negativo, rebote
+        negativo, peristalsis presente y se percute matidez en hipocondrio derecho dos traveses de
+        dedo subcostal derecho.
+        Se presentan los siguientes resultados en la biometría hemática: Hb de 18.2 mg/dL, Hto de
+        54.6%, leucocitos de 11,200 mg/dL, neutrófilos de 58%, linfocitos de 48% y bandas de 1%.
+        En la química sanguínea: glucosa de 72 mg/dL, BUN de 12.2 mg/dL y creatinina 0.8 mg/dL.
+        En la prueba de función hepática: BT de 2.1 mg/dL, BD 1.9 mg/dL, BI 1.2 mg/dL, FA de 123
+        UI, GGT de 22 UI, AST de 320 UI, ALT 254 UI, proteínas totales de 8.2 mg/dL y albúmina
+        de 3.2 mg/dL
+        ¿Qué resultados anormales orientan al diagnóstico presuntivo?`,
+        [ 'Hiperbilirrubinemia',
+        'Transaminasas',
+        'Leucocitosis',
+        'Hipoalbuminemia'],
+        'Transaminasas',
+        `Según GPC. Principales indicadores de daño hepático AST (valores
+            normales 10-45 UI) y ALT (valores normales 10-43)`
     ),
 ];
 export default questions;
