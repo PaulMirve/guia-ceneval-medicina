@@ -896,5 +896,787 @@ encontrar.`),
         `Según GPC. Principales indicadores de daño hepático AST (valores
             normales 10-45 UI) y ALT (valores normales 10-43)`
     ),
+    new Question(
+        `Una mujer de 75 años que sufre Alzheimer y estreñimiento es traída de un asilo al
+        servicio de urgencias por presentar cuadro de 8 horas de evolución, caracterizado por
+        distensión y dolor abdominal de tipo cólico intenso localizado en la fosa iliaca izquierda; no
+        ha podido evacuar ni canalizar gases por el recto. En la exploración física se encuentra
+        quejumbrosa, presenta abdomen con distensión, timpanismo y peristalsis de lucha, dolor
+        intenso durante la palpación en la fosa iliaca y flanco izquierdos. Se solicita radiografía de
+        abdomen en donde se evidencia asa en “U” invertida distendida o signo del “grano de café”,
+        desaparición de haustras. Se solicita colon por enema con imagen en “pico de pájaro”.
+        ¿La descripción de las imágenes encontradas en los estudios de gabinete sugiere?`,
+        ['Síndrome de Crohn',
+        'Cáncer de recto',
+        'Vólvulo de sigmoides',
+        'Diverticulitis de colon'],
+        'Vólvulo de sigmoides',
+        `Según la GPC de vólvulo de colon. La radiografía simple de abdomen
+        permite el diagnóstico de vólvulo sigmoideo en 51.3% a 66%. Los hallazgos radiológicos
+        más frecuentes en vólvulo de sigmoides son: - Ausencia de gas rectal (90%), -Sigmoide
+        distendido en forma de U invertida (86%), -Signo del grano de café (76%). Datos clínicos:
+        dolor abdominal, distensión abdominal, ausencia de canalización de gases, ausencia de
+        evacuaciones, náusea, vómito, resistencia muscular.`
+    ),
+    new Question(
+        `Un hombre de 24 años , con antecedentes de dermatitis atópica y asma bronquial,
+        presenta cuadro clínico de 7 días de evolución caracterizado por dolor faríngeo, tos
+        productiva con expectoración amarillo-verdosa y secreción retronasal. El médico le
+        prescribe penicilina G procainica y se la aplican en el servicio de enfermería. Transcurridos
+        5 minutos, el paciente presenta sensación de desvanecimiento, taquicardia, disnea,
+        aumento de la temperatura corporal y disminución de la tensión arterial. Una vez
+        estabilizado el paciente, se le realiza determinación de inmunoglobulinas.
+        ¿Cual de estas se encontrará elevada?`,
+        [ 'IgA', 'IgE', 'IgM', 'IgG'],
+        'IgE',
+        `Según GPC de Asma bronquial. Rx de tórax, biometría hemática completa,
+        eosinófilos en moco nasal o IgE sérica`
+    ),
+    new Question(
+        `. Un paciente de 65 años con pirosis y regurgitaciones de 5 años de evolución se le
+        realiza una panendoscopia, en la cual se observa mucosa esofágica inferior hiperémica,
+        unión gastroesofágica a 39 cm de la arcada dentaria superior y pinza diafragmática
+        localizada a 5 cm, después de que el endoscopio franquea sin dificultad la unión
+        gastroesofágica.
+        ¿Estos hallazgos indican que el paciente cursa con?`,
+        [ 'Esofagitis caustica',
+        'Estenosis esofágica',
+        'Esofago de barret',
+        'Hernia hiatal'],
+        'Hernia hiatal',
+        `Debido a la ubicación de la pinza diafragmática`
+    ),
+    new Question(
+        `Un adulto de 60 años, gerente de empresa, con estilo de vida sedentario y que niega
+        tabaquismo y alcoholismo, acude a consulta externa con un electrocardiograma que se
+        tomó como parte de un chequeo de rutina y se refiere asintomático. En el trazo del ECG se
+        observa FC de 65/min, complejos QRS precedidos por indas P, intervalo PR de 0.28
+        segundos, Complejo QRS de 0.10s, ondas P positivas en DI, DII, y aVF, Ondas T negativas
+        en AVR, eje eléctrico de +60 e índice de Sokolow (SV1 + RV6) de 28 mm.
+        ¿Cual es el resultado anormal en el ECG del paciente?`,
+        [ 'Frecuencia Cardiaca',
+        'Intervalo PR',
+        'Ondas T negativas en AVR',
+        'Eje eléctrico'],
+        'Intervalo PR',
+        `FC normal (60-100 lpm), Intervalo PR normal (0.12-0.20s), Ondas T
+        negativas siempre en AVR, Eje eléctrico normal (-30 a 90)`
+    ),
+    new Question(
+        `Un paciente de 29 años presenta crecimiento en el cuello, insomnio, pérdida de peso de
+        aproximadamente 5 kg, caida del cabello y sequedad de pie. En la exploración física se
+        encuentra taquicardia, exoftalmos, aumento de volumen en glándula tiroides sin dolor a la
+        palpación, temblor fino en ambas manos y edema de MsPs. Se solicitan pruebas de función
+        tiroidea en las que se registran TSH de 0.3 mU/mL, T3 total de 3.1 nmol/L, T3 libre de 12
+        pmol/L, T4 total de 145 nmol/L, T4 libre de 35 nmol/L, anticuerpos anti TSH-R elevados y
+        anticuerpos TSAb elevados
+        ¿Que resultado establece el diagnóstico?`,
+        ['TSH menor de 0.5 mU/mL',
+        'T3 y T4 totales dentro de rango normal con T3 y T4 libre elevados',
+        'Anticuerpos TSH-R y TSAb elevados',
+        'Anticuerpos antiTg elevados'],
+        'TSH menor de 0.5 mU/mL',
+        `Según GPC enfermedad de Graves (hipertiroidismo). LA mejor manera de
+        medir la función tiroidea es medir niveles de TSH. Un nivel de TSH baja o suprimida indica
+        que la tiroides presenta un problema de hiperfunción. valores normales de TSH (0.4-4.2).
+        `
+    ),
+    new Question(
+        `Una paciente de 45 años refiere que, posterior a eventos de respiración profunda y
+        rápida, presenta parestesias, sensación de hormigueo en las extremidades y mareos. Estas
+        manifestaciones remiten cuando la paciente se tranquiliza. Durante el evento, al medir
+        gases asteriales, se espera encontrar:`,
+        [ 'PaO2 aumentada y PaCO2 normal',
+        'PaO2 y PaCO2 aumentadas',
+        'PaO2 y PaCO2 disminuidas',
+        'PaO2 normal y PaCO2 disminuida'],
+        'PaO2 normal y PaCO2 disminuida',
+        `Respiraciones aumentadas tendría que aumentar niveles de oxigeno y disminuir niveles de
+        PaCO2, que esto nos da la clínica de la paciente con alcalosis respiratoria al no realizarse la
+        hematosis de manera correcta. Ninguna de las opciones tiene lo que esperarías en una
+        gasometría con una alcalosis respiratoria pura.`
+    ),
+    new Question(
+        `Una paciente de 27 años. GII, AII PI acude a consulta porque desea embarazarse, una
+        histerosalpingografia demuestra que no hay paso del medio de contraste desde el cérvix
+        uterino. El DX definitivo en este caso es:`,
+        ['utero bicorne',
+        'endometriosis tubaria',
+        'sinequias uterinas',
+        'insuficiencia istmico cervical'],
+        'sinequias uterinas',
+        `Sindrome de Asherman: se debe de sospechar en pacientes con con antedecentes de
+        hipomenorrea, abortos de repetición o antecedentes de legrados, el diagnostico se realiza
+        con visualización directa mediante histeroscopia, menor sensibilidad con
+        histerosalpingografia.`
+    ),
+    new Question(
+        `Lactante de 6 meses, irritable, inicialmente intermitente desde hace 4 horas, constante
+        llanto intenso, 6 vomitos de contenido gástrico, y dos evacuaciones de mucosas con
+        abundante sangre y con aspecto a jalea, EF; 120 lpm, T 38ºC llanto con lagrimas escasas,
+        mucosa oral seca, abdomen distendido y timpánico, masa en forma de salchicha en CSD,
+        no hay ruidos peristálticos, tacto rectal con sangrado.
+        ¿Cual es el diagnóstico de este paciente?`,
+        ['ileo paralitico',
+        'conducto onfalomesenterico permeable',
+        'intususcepcion',
+        'malrotacion intestinal'],
+        'intususcepcion',
+        `La invaginación intestinal o intususcepción es una enfermedad obstructiva en niños la triada
+        clásica donde se presenta masa abdominal palpable, en forma de salchicha, heces color
+        rojo (como jalea de grosella), y dolor abdominal agudo; además de vómitos.`
+    ),
+    new Question(
+        `Recien nacido de 38 SDG, madre sana, obtenido por cesarea, llora y respira al nacer,
+        peso y talla normal, a los 10 min de alumbrado inicia con datos leves de dif respiratoria,
+        aleteo nasal y retracción xifoidea leve, se pasa a terapia intermedia, Rx torax; nueve
+        espacios intercostales, aumento de trama parahiliar y cisuritis.
+        ¿ cual es el diagnóstico definitivo ?`,
+        ['sindrome de aspiracion meconial',
+        'deficiencia de factor sulfactante',
+        'taquipnea transitoria',
+        'hipertension pulmonar'],
+        'taquipnea transitoria',
+        `Según GPC: inicio en las primeras horas de ida, se resuelve entre las 24 y 72 horas,
+        factores de riesgo; recién nacidos a termino o cercanos a termino, nacer por cesárea o en
+        forma precipitada por vía vaginal, se caracteriza FC >60 rpm, aumento de requerimientos de
+        oxígeno. Imágenes en RX de tórax; Rectificación de arcos costales, herniación del
+        parénquima pulmonar, hiperclaridad pulmonar, aumento del espacio intercostal,
+        aplanamiento del diafragma. Cisuritis, incremento del diámetro anteroposterior, congestior
+        parahiliar simétrica.`
+    ),
+    new Question(
+        `Paciente de 6 años, palidez generalizada, astenia leve, somnoliencia y mal rendimiento
+        escolar, BH reporta hb 10 mg/dl, Hto 31%, leucos 6.700/mm3, neutro 45%, linfocitos 48%,
+        monocitos 4%, eosinofilos 2%, basófilos 1% plaquetas 256,000 VCM 72 fL, HCM 22 pg,
+        CHbCH 29 g/dL, retis 1.2%
+        Estos datos sugieren una anemia:
+        `,
+        ['normocitica normocromica',
+        'microcitica hipocromica',
+        'macrocitica normocromica',
+        'hemolitica'],
+        'microcitica hipocromica',
+        `Valores normales de BH: VCM (83-100 fL) HCM (28-32 pg). Aprenderse valores de BH.
+        `
+    ),
+    new Question(
+        `. Acude a consulta un paciente de 57 años que presenta hipertensión arterial con 5 años
+        de evolución, bajo tratamiento con 25 mg de captopril cada 24 horas. Se registra TA de
+        120/80 mmHg, FC de 63/min, FR de 17/min y T de 36.8ªC. Durante la exploración física no
+        se observan datos anormales. Se solicita un electrocardiograma y perfil de lípidos como
+        parte de un chequeo anual y se observa FC de 65/min, complejos QRS precedidos de
+        ondas P, intervalo PR de 0.28 segundos, complejo QRS de 0.10 segundos, ondas P
+        positivas en DI, DII y aVF, ondas T negativas en aVR, eje eléctrico de +60ª, índice de
+        Sokolow (SV1 + RV6) de 28 mm. En los exámenes de laboratorio se reporta colesterol total
+        de 180 mg/dl, triglicéridos de 120 mg/dl, HDL de 50 mg/dl y LDL de 80 mg/dl.
+        ¿Cuál es el diagnóstico de este paciente?`,
+        [ 'hipercolesterolemia',
+        'hipertrigliceridemia',
+        'hipertrofia ventricular izquierda',
+        'bloqueo auriculo ventricular de 1er grado'],
+        'bloqueo auriculo ventricular de 1er grado',
+        `Según GPC, es definido como la prolongación anormal del intervalo PR mayor a 0.20
+        segundos.`
+    ),
+    new Question(
+        `Un paciente de 72 años en incluido, previo consentimiento informado, en un protocolo
+        para la aplicación de una droga en experimentación, posteriormente decide abandonarlo
+        pues el tratamiento le ha provocado severas reacciones secundarias.
+        Ante esta situación el oncólogo responsable debe:`,
+        ['evitar su salida del protocolo, pues el firmo un consentimiento informado',
+        'canalizarlo al juridico de la institucion por daños y prejuicios',
+        'evitar su salida del estudio pues las reacciones secundarias son normales enualquier medicamento de experimentacion',
+        'permitirle dejar el estudio en el momento que lo desee, sin importar la causa'],
+        'permitirle dejar el estudio en el momento que lo desee, sin importar la causa',
+        `Pauta internacional para la investigación y experimentación biomédica en seres humanos
+        nos dice que la persona es libre de negarse a participar y tendrá la libertad de retirarse de la
+        investigación en cualquier momento sin sanción o pérdida de beneficios a los cuales en otra
+        circunstancia tendría derecho. La declaración de Helsinki de la asociación medica mundial
+        habla lo mismo.`
+    ),
+    new Question(
+        `Se llevara a acabo un ensayo clínico en el que se estudiará la eficacia de un nuevo
+        medicamento contra la hipertensión arterial, se pretende la inclusión de pacientes que
+        acude a consulta en el hospital en el que se desarrolla el ensayo. ¿Qué información debe
+        integrarse, de manera indispensable en el consentimiento informado?`,
+        [ 'los antecedentes patologicos del paciente',
+        'la participacion es indispensable para recibir la atencion medica',
+        'los posibles efectos adversos son responsabilidad del paciente',
+        'la libertad del paciente para retirarse del estudio'],
+        'la libertad del paciente para retirarse del estudio',
+        `Se justifica con la respuesta anterior.`
+    ),
+    new Question(
+        `Un paciente de 30 años es atendido en urgerncias por una herida de arma de fuego en
+        el torax, una pareja de transeuntes lo encontro inconciente en la via publica y solicito apoyo
+        por paramedicos, quienes lo llevaron al hospital y al llegar informaron que portaba una
+        identificacion como donante de organos. durante el traslado, se le practicó trasqueostomia
+        por edema generalizado de las vias aereas que dificultaba la intubacion. fue ingresado en
+        estado de coma y conectado a un respirador. pero al presentar indicios de choque
+        hipovolemico, se determino la necesidad de realizar una toracotomia de emergencia,
+        procedimiento para el que se requiere la firma de consentimiento informado. la trabajadora
+        social asegura no haber localizado al familiar de contacto indicado en la identificacion del
+        paciente, sin embargo los testigos reportaron el caso acudiendo al hospital para declarar
+        que lo habian reconocido como vecino de la zona donde lo hallaron.
+        Con base en la condicion actual del herido ¿quienes deben firmar el consentimiento o la
+        autorizacion del paciente?
+        `,
+        [ 'trabajadora social y su superior',
+        'transeúntes testigos',
+        'medico tratante y cirujano',
+        'paramedicos'],
+        'medico tratante y cirujano',
+        `Según la NOM 004 del expediente clínico; en caso de incapacidad transitoria o permanente
+        y ante la imposibilidad de que el familiar tutor o representante legal firme el consentimiento,
+        se procederá bajo acuerdo de por lo menos dos de los médicos autorizados por el hospital
+        dejando por escrito constancia en el expediente clínico.`
+    ),
+    new Question(
+        `Se programa a un paciente de 26 años para hemioplastia umbilical. El cirujano elabora
+        el consentimiento informado, en el que registra el nombre de la institución, el lugar y la
+        fecha, el nombre del procedimiento a realizar, la autorización al personal de salud, para la
+        atención de contingencias, el riesgo del procedimiento, así como el nombre completo y la
+        firma del médico, del paciente y de dos testigos .
+        ¿Qué dato se omitió en el documento?`,
+        ['Pronóstico',
+        'Gráficos de signos vitales',
+        'Plan de manejo y seguimiento',
+        'Beneficios esperados'],
+        'Beneficios esperados',
+        `ya que es el único apartado que debe ir dentro del consentimiento
+        informado`
+    ),
+    new Question(
+        `Una mujer de 77 años es ingresada al servicio de medicina interna en estado de coma
+        por accidente cerebrovascular. La paciente tiene como antecedente padecer de diabetes
+        mellitus 2 desde hace 28 años y estar en tratamiento de diálisis peritoneal, debido a
+        insuficiencia renal crónica desde hace 1 año por necropsia diabética a las 72 horas del
+        internamiento desarrolla insuficiencia respiratoria aguda y fallece por para cardiorespiratorio
+        De acuerdo con la evolución de la paciente ¿Qué enfermedad deberá anotarse como causa
+        directa de la muerte con base a las características del certificado de defunción y la
+        normativa vigente:`,
+        ['paro cardiorespiratorio',
+        'evento cerebral vascular',
+        'nefropatia diabética',
+        'insuficiencia respiratoria'],
+        'insuficiencia respiratoria',
+        `ya que según el llenado correcto de defunción define como la
+        causa directa al último evento que provoca que muera el paciente`
+    ),
+    new Question(
+        `Un paciente de 45 años es trasladado a urgencias tras haber sufrido un accidente
+        automovilístico. En la anamnesis se observa consciente, cooperador, orientado en persona,
+        pero no en tiempo y espacio, con aliento alcohólico evidente, no porta identificación, durante
+        la explotación física se reporta TA 100/70, FC 85, respiratoria de 20 y Glasgow de 14,
+        además se aprecia una herida cortante en la cara externa del muslo izquierdo, de 12cm de
+        longitud que abarca la piel y tejido celular suscitando por lo que requiere sutura
+        ¿Cuál es la acción que debe realizar de acuerdo al tratamiento de la herida?
+        `,
+        ['solicitar al paciente que firme el consentimiento informado',
+        'localizar a un familiar para que brinde el consentimiento informado',
+        'proceder bajo acuerdo de dos médicos autorizados',
+        'iniciar tratamiento si recabar consentimiento'],
+        'localizar a un familiar para que brinde el consentimiento informado',
+        `bebido a que el paciente está alcoholizado y no está
+        orientado en sus tres esferas por lo que no se encuentra en condiciones de poder firmar`
+    ),
+    new Question(
+        `Un paciente de 58 años con a ntecedentes de úlcera duodenal e hipertensión es llevado
+        al servicio de urgencias por ambulancia en situación de shock y datos de una probable
+        peritonitis. El paciente presenta un paro cardiorespiratorio y fallece.
+        En el certificado de defunción el diagnóstico de shock es la causa:`,
+        ['básica', 'directa', 'secundaria', 'asociada'],
+        'secundaria',
+        `porque no se considera ni una causa básica ni directa según el
+        llenado correcto del certificado`
+    ),
+    new Question(
+        `Unas mujer de 35 años con embarazo de 36 semanas es trasladada en ambulancia al
+        servicio de urgencias por presentar convulsiones de 1 día de evolución. En el interrogatorio
+        indirecto se reporta que la paciente, desde una semana antes presentó cifras de TA
+        180/120, edema y proteinuria elevada el ginecobstetra decide culminar el embarazo por ti A
+        abdominal. Posteriormente la paciente es trasladada a la unidad de cuidados intensivos Y
+        ahí presenta hemorragia cerebral y 12 horas después fallece
+        Para el llenado del certificado de defunción del paciente ¿Cuál es la causa que debe
+        consignarse como causa directa de la muerte?`,
+        ['EClampsia',
+        'preeclampsia',
+        'hemorragia cerebral',
+        'embarazo de riesgo'],
+        'hemorragia cerebral',
+        `porque la causa directa se considera como el último evento
+        que provoca que muera el paciente.`
+    ),
+    new Question(
+        `Una mujer de 54 años con antecedente de diabetes mellitus tipo 2 de 15 años de
+        evolución, desarrollo glomeruloesclerosis diabética 6 meses antes de su muerte y 5 días
+        previos presento un infarto transmural aviso del.miocardio y paro respiratorio
+        Con base a la evolución que tuvo la paciente ¿ cuál es la causa directa de muerte Que debe
+        registrarse en el certificado de defunción?
+        `,
+        ['Diabetes mellitus 2',
+        'Paro respiratorio',
+        'infarto transmural agudo al miocardio',
+        'Coma o cetoacidosis diabetica'],
+        'infarto transmural agudo al miocardio',
+        `piden la causa directa y el último evento que provoca que
+        muera el paciente`
+    ),
+    new Question(
+        `Una mujer de 36 años, posterior a un intento de violación por un sujeto desconocido,
+        acude al Ministerio público para certificación de lesiones, el médico legista anota en el
+        certificado la presencia de lesiones eritematosas superficiales en brazos y cara anterior de
+        ambos muslos, caracterizadas por ser de trazo lineal, paralelas, con eliminación de la
+        epidermis en algunas zonas y en otras con eliminación superficial de la dermis.
+        Las lesiones que presenta la paciente se clasifican como heridas:`,
+        [ 'Pediculada', 'Escoriación', 'Perforantes', 'Incisas'],
+        'Escoriación',
+        `porque las características de la lesión, en la escoriacion lo
+        más significativo es la pérdida de continuidad de epidermis y dermis, así como el trazo lineal`
+    ),
+    new Question(
+        `Un torero de 18 años es trasladado a urgencias al presentar una herida en el abdomen;
+        en la exploración física, se encuentra inconsciente y se observa una lesión de forma circular
+        en la fosa iliaca 7, con bordes que tienen anillo de contusión, en extremos con paredes lisas
+        en forma de conducto y con una profundidad que alcanza la cavidad abdominal.
+        ¿ Qué tipo de herida se debe registrar en el expediente del paciente?`,
+        ['Cortante',
+        'Punzante',
+        'Punzocortante',
+        'Corto contudente'],
+        'Corto contudente',
+        `por la s características de la lesión, y estas las corto
+        contudentes se caracterizan por tener bordes lisos y son provocadas por una fuerza mayor
+        Y suelen perforar hasta observa hueso.`
+    ),
+    new Question(
+        `Una adolescente de 16 años, acude al servicio de urgencias y refiere haberse peleado
+        con su vecina. Presenta herida que interrumpe la integridad de la piel, se bordes regulares
+        en antebrazo izquierdo.
+        Como se clasifica esa herida:
+        `,
+        [ 'Contundente', 'Cortante', 'Punzante', 'Mixta'],
+        'Cortante',
+        ` por las características de la lesión interrumpe integridad de piel y
+        los bordes son regulares al ser causada con objetos como latas, vidrio o cuchillo.
+        `
+    ),
+    new Question(
+        `Un paciente de 26 años es trasladado a urgencias, porque presenta lesiones luego de
+        una riña callejera, se encuentra inconsciente luego durante la exploración física, destaca
+        una herida con sangrado moderado en el cuero cabelludo con bordes irregulares
+        equimóticos y puentes dérmicos
+        ¿Qué tipo de lesión tiene?`,
+        ['Contusa', 'Corto contudente', 'Cortante', 'Punzante'],
+        'Contusa',
+        `por las características de esta lesión las cuales tiene bordes
+        irregulares, puede haber equimosis, o hematoma con erosiones.
+        `
+    ),
+    new Question(
+        `En un hospital ubicado en el suroeste del país se identificaron diversas enfermedades
+        infecciosas que requieren notificación para su vigilancia epidemiológica: dos casos de
+        infección por VPH y dos por meningitis, uno por citomegalovirus y otro más por Neisseria
+        meningitiditis. Además, se reportaron tres casos de infección por dengue. ¿Qué caso
+        requiere notificación epidemiológica inmediata y semanal?`,
+        ['Dengue',
+        'Infección por VPH',
+        'Meningitis viral',
+        'Meningitis meningocócica'],
+        'Meningitis meningocócica',
+        `Notificación inmediata (durante las primeras 24 hrs de conocimiento del padecimiento)
+        según NOM-017-SSA2-2012, apéndice A.`
+    ),
+    new Question(
+        `En un centro de salud se atendieron 7 casos de padecimientos infectocontagiosos
+        infantiles de entre 4 y 14 años en la última semana. Sin embargo, no todos los casos se
+        notificaron de manera inmediata , como lo establece la norma vigente. Seleccione los
+        padecimientos que debieron notificarse con dicha frecuencia.
+        1. Parotiditis
+        2. Amibiasis intestinal
+        3. Tosferina
+        4. Faringoamigdalitis estreptococica
+        5. Enteritis debida a rotavirus
+        6. Sarampión
+        `,
+        ['1,2,3', '1,4,5', '2,4,6', '3,5,6'],
+        '3,5,6',
+        `NOM-017-SSA2-2012 para la vigilancia epidemiológica, todas las prevenibles con
+        vacunación excepto hepatitis A y B, papiloma, parotiditis y varicela son de notificación
+        inmediata
+        `
+    ),
+    new Question(
+        `En la consulta de un centro de salud se recibió, en el mismo día, un paciente con
+        diagnóstico de paludismo por P. vivax, dos con fiebre por dengue, uno con TB pulmonar y
+        otro más con lesión por abeja africanizada. Al elaborar el informe de los padecimientos.
+        ¿cuál debe notificarse de manera inmediata?
+        `,
+        ['Lesión por abeja africanizada',
+        'Paludismo por plasmodium vivax',
+        'Fiebre por dengue',
+        'TB pulmonar'],
+        'Lesión por abeja africanizada',
+        `Según la NOM- 017-SSA2-2012 para la vigilancia epidemiológica, paludismo por P. vivax,
+        fiebre por dengue y TB pulmonar son de notificación semanal excepto la lesión por la abeja
+        africanizada que es de notificación inmediata`
+    ),
+    new Question(
+        `En el servicio de urgencias se recibe una paciente de 35 años que trabaja en el campo.
+        Presenta rigidez generalizada y espasmos musculares. No la acompaña ningún familiar y
+        tampoco se puede investigar si se le ha aplicado la vacuna del tétanos. ¿En qué momento
+        se debe notificar este caso a las autoridades sanitarias?
+        `,
+        ['Hasta que se confirme el caso',
+        'En menos de 24 hrs',
+        'De 24 a 48 hrs',
+        'En cualquier momento'],
+        'En menos de 24 hrs',
+        `Según la NOM-017-SSA2-2012 para la vigilancia epidemiológica es de notificación
+        inmediata (Durante las primeras 24 hrs)`
+    ),
+    new Question(
+        `En un centro de salud comunitario se prepara el reporte de vigilancia epidemiológica
+        semanal y se identifica el registro de dos menores procedentes de la misma escuela con
+        diagnóstico de hepatitis A. ¿Cómo deben notificarse estos registros en el reporte?`,
+        ['Evento', 'Alerta', 'Brote', 'Caso'],
+        'Brote',
+        `Según la NOM-017-SSA2-2012 para la vigilancia epidemiológica se considera brote a la
+        presencia de dos o más casos asociados epidemiológicamente entre sí`
+    ),
+    new Question(
+        `El médico responsable de una clínica de atención primaria deberá hacerse cargo de la
+        elaboración de reportes semanales, mensuales y anuales; por lo que decide capacitar al
+        personal de la clínica respecto de la enfermedades que se notifican a las autoridades
+        sanitarias ante cualquier caso sospechoso. Una enfermedad que debe considerarse para
+        dicha capacitación es:`,
+        ['Faringoamigdalitis bacteriana', 'NAC', 'Otitis', 'Rabia'],
+        'Rabia',
+        `Según el Sistema Nacional de Vigilancia de la Salud (SNVS) en el módulo de Vigilancia
+        Clínica (C2) son de notificación individual inmediata ante caso sospechoso las
+        enfermedades zoonóticas entre las que se encuentra rabia.`
+    ),
+    new Question(
+        `Un adolescente es llevado a la unidad de salud por presentar evacuaciones líquidas
+        profusas, como “agua de arroz” en número de 10, vómito continuo y datos de
+        deshidratación, ante esta situación la acción de vigilancia epidemiológica es:`,
+        ['Capacitar a los familiares sobre la hidratación oral y saneamiento básico',
+        'Otorgar tratamiento profiláctico a convivientes',
+        'Notificar a la instancia correspondiente como caso sospechoso',
+        'Realizar búsqueda de portadores en familia y convivientes'],
+        'Notificar a la instancia correspondiente como caso sospechoso',
+        `Según la NOM-016-SSA2-2012 para la vigilancia, prevención, control, manejo y tratamiento
+        de cólera apartado 4. Vigilancia epidemiológica y generalidades, inciso 4.3 Los casos
+        sospechosos, confirmados y defunciones por cólera, así como brotes son objeto de
+        notificación inmediata durante las primeras 24 hrs.`
+    ),
+    new Question(
+        `Se reporta una prueba positiva de reacción en cadena de polimerasa en tiempo real en
+        un paciente que presenta fiebre, tos y dificultad respiratoria menor a 8 hrs de evolución.
+        Esto conduce a un diagnóstico de caso:`,
+        [ 'Sospechoso', 'Probable', 'Compatible', 'Confirmado'],
+        'Confirmado',
+        `Según la NOM-017-SSA2-2012 para la vigilancia epidemiológica caso confirmado se refiere
+        a todo caso cuyo diagnóstico se confirma por estudios auxiliares de laboratorio con signos y
+        síntomas alusivos a enfermedad`
+    ),
+    new Question(
+        `Un paciente de 50 años, con cuadro febril de 39.5°c de inicio súbito, tiene dolor articular
+        severo, mialgias, cefalea, náuseas, vómito, rash y conjuntivitis. Aunque vive en una zona
+        tropical donde no se ha identificado la circulación del virus chikungunya, el médico
+        considera que se trata de un caso probable. ¿Qué acción de vigilancia epidemiológica debe
+        implementarse?`,
+        ['Toma de muestra para detección de ARN viral',
+        'Descarte del caso hasta confirmar la circulación del virus',
+        'Inicio inmediato del tratamiento ativiral',
+        'Toma de muestra inmediata de los contactos'],
+        'Toma de muestra para detección de ARN viral',
+        `Según los lineamientos para la vigilancia epidemiológica y diagnóstico por laboratorio de
+        fiebre chikungunya en las zonas en donde no se ha identificado la circulación del virus
+        chikungunya, a los casos que cumplan con la definición estricta de casos sospechoso de
+        CHIK se tomará muestra al 100% de los casos.`
+    ),
+    new Question(
+        `Una paciente de 25 años que reside en la península de yucatán acude a consulta
+        porque presenta fiebre no cuantificada de 3 días de evolución, así como mialgias, artralgias
+        y cefalea. La consulta sucede en la época en la que cada año se reportan casos de dengue,
+        además de la probable presencia del mosquito Aedes aegypti. ¿Con qué acción de
+        vigilancia epidemiológica se debe iniciar?`,
+        [ 'Determinar el índice larvario',
+        'Confirmar casos de dengue en la zona',
+        'Realizar estudio del caso',
+        'Llevar a cabo el control del brote'],
+        'Confirmar casos de dengue en la zona',
+        `Según los lineamientos para la vigilancia epidemiológica de fiebre por dengue y fiebre
+        hemorrágica por dengue la primera acción que se debe de tomar ante un caso probable de
+        fiebre por dengue es notificar todos los casos probables para posterior hacer la toma de
+        muestras pertinentes y una vez confirmada la presencia de la enfermedad mediante el
+        diagnóstico de laboratorio se debe clasificar y estudiar los casos sobre las bases
+        epidemiológicas.`
+    ),
+    new Question(
+        `En el centro de salud local, en los últimos días se atendieron a varios niños con tos de
+        14 o más días de evolución, de tipo paroxística, cianosante y con estridor laríngeo
+        respiratorio. Además de la notificación inmediata ¿Qué acciones de vigilancia
+        epidemiológica deben llevarse a cabo de manera prioritaria?`,
+        ['Estudio de Brote e inmunización a menores de 5 años y mujeres embarazadas.',
+        'Cálculo de la tasa de ataque e inmunización a toda la población.',
+        'Estudio de caso e inmunización a menores de 5 años y mujeres embarazadas.',
+        'Estudio de brote e iniciar antitusígenos.'],
+        'Cálculo de la tasa de ataque e inmunización a toda la población.',
+        `Caso probable de Tos ferina: Toda persona con tos paroxística con siete o más días de
+        evolución con al menos uno o más de los siguientes signos o síntomas: tos en accesos,
+        cianosante, emetizante, apnea o estridor laríngeo.
+        Estudio de brote: Es la investigación de los factores de riesgo epidemiológico individual y/o
+        poblacional involucrado ante la presencia de dos o más casos asociados en un área
+        geográfica delimitado y en el mismo periodo de tiempo. En algunos padecimientos la
+        presencia de un caso en un lugar que no ha ocurrido casos se considera como un brote.
+        Los objetivos del Sistema de Vigilancia Epidemiológica de Tos ferina son los
+        siguientes:
+        -Identificar oportunamente la ocurrencia de casos de Tos ferina en el país.
+        -Notificar de manera inmediata a la jurisdicción sanitaria la totalidad de los casos probables
+        y confirmados
+        -Notificar la totalidad de los casos probables de Síndrome Coqueluchoide/tos ferina a través
+        del SUIVE a la jurisdicción sanitaria
+        - Asegurar la quimioprofilaxis a los contactos intradomiciliarios, extradomiciliarios ante un
+        caso confirmado de B. pertussis.`
+    ),
+    new Question(
+        `Se estableció un consultorio privado en una comunidad rural, sin embargo los médicos
+        encargados se ausentaron de manera injustificada, por lo que la atención brindada fue
+        irregular. Por ello, después de un año, el servicio de consulta no ha alcanzado el punto de
+        equilibrio necesario. ¿Qué principio de la administración se debe aplicar para tomar
+        decisiones que solucionen este problema?`,
+        ['Planeación', 'Organización', 'Control', 'Dirección'],
+        'Dirección',
+        `El proceso administrativo se define como una consecución de fases o etapas a través de las
+        cuales se lleva a cabo la práctica administrativa: planeación, organización, dirección y
+        control.
+        Proceso Administrativo
+        Planeación: ¿Qué se va a hacer? Objetivos, políticas, diagnóstico, programas y
+        presupuestos
+        Organización: ¿Cómo se dividirá el trabajo? Unidades de mando y procedimientos
+        Integración: ¿Quién y con qué se va a hacer? Personal: selección, contratación,
+        capacitación, materiales, finanzas, compras, producción, entre otros.
+        Dirección: ¿Cómo se debe hacer? Autoridad, mando, toma de decisiones, supervisión,
+        delegación, instrucciones y comunicación.
+        Control: ¿Cómo se hizo? Evaluación, comparación, determinación de las desviaciones,
+        corrección de fallas y retroalimentación`
+    ),
+    new Question(
+        `Es llevado a urgencia un paciente de 28 años con heridas ocasionadas por arma de
+        fuego durante un asalto, una en el cuello y otra en el abdomen. En la exploración física se
+        encuentra con palidez de tegumentos, con presencia de orificio de entrada de bala a nivel
+        cervical y con herida de aproximadamente 1 cm en fosa iliaca izquierda y datos de abdomen
+        agudo, sin orificio de salida del proyectil. Se encuentra diaforético, polipneico, con aumento
+        de volumen y deformidad en el cuello, presenta desviación de la tráquea hacia la derecha.
+        Se acompaña de sangrado profuso por lesión de la arteria carótida izquierda. Dada la
+        gravedad y la presencia de alteración de los signos vitales con un estado de choque
+        hipovolémico, se ingresa a quirófano para realizar bypass de la carótida, además de
+        colostomía debido a una perforación del colon descendente. Con base en la normativa del
+        expediente clínico ¿Qué información es indispensable integrar en la nota preoperatoria del
+        paciente?
+        `,
+        ['Consentimiento informado con acto autorizado por realizar',
+        'Resumen de la exploración física y resultados de los estudios',
+        'Informe del procedimiento quirúrgico por realizar',
+        'Nombre y firma del responsable de la cirugía.'],
+        'Nombre y firma del responsable de la cirugía.',
+        `NOM 004 Del Expediente Clínico Nota Preoperatoria.
+        Deberá elaborarla el cirujano que va a intervenir al paciente, incluyendo a los cirujanos
+        dentistas (excepto el numeral 8.5.7 para estos últimos) y deberá contener como mínimo:
+        8.5.1 Fecha de la cirugía;
+        8.5.2 Diagnóstico;
+        8.5.3 Plan quirúrgico;
+        8.5.4 Tipo de intervención quirúrgica;
+        8.5.5 Riesgo quirúrgico;
+        8.5.6 Cuidados y plan terapéutico preoperatorios; y
+        8.5.7 Pronóstico.
+        8.6 Un integrante del equipo quirúrgico podrá elaborar un reporte de la lista de verificación
+        de la cirugía, en su caso, podrá utilizar la lista Organización Mundial de la Salud en esta
+        materia para dicho propósito.
+        8.7 Nota preanestésica, vigilancia y registro anestésico.`
+    ),
+    new Question(
+        `En el área de medicina preventiva de una unidad de primer nivel de atención se
+        coordinara un programa de orientación sobre salud reproductiva con el objetivo de disminuir
+        la alta tasa de embarazos adolescentes eventualmente. Para ello se deben determinar las
+        metas generales y especificas de la campaña, con base en antecedentes, documentales
+        provenientes de diversas fuentes. ¿A qué etapa del proceso administrativo corresponde
+        esta actividad?`,
+        [ 'Planeación', 'Organización', 'Control', 'Dirección'],
+        'Planeación',
+        `El proceso administrativo se define como una consecución de fases o etapas a través de las
+        cuales se lleva a cabo la práctica administrativa: planeación, organización, dirección y
+        control.
+        Proceso Administrativo
+        Planeación: ¿Qué se va a hacer? (Prevenir), Objetivos (disminuir la alta tasa de
+        embarazos adolescentes eventualmente), políticas, diagnóstico, programas y presupuestos
+        Organización: ¿Cómo se dividirá el trabajo? Unidades de mando y procedimientos
+        Integración: ¿Quién y con qué se va a hacer? Personal: selección, contratación,
+        capacitación, materiales, finanzas, compras, producción, entre otros.
+        Dirección: ¿Cómo se debe hacer? Autoridad, mando, toma de decisiones, supervisión,
+        delegación, instrucciones y comunicación.
+        Control: ¿Cómo se hizo? Evaluación, comparación, determinación de las desviaciones,
+        corrección de fallas y retroalimentación.
+        `
+    ),
+    new Question(
+        `En una unidad de salud comunitaria se implementó un programa para disminuir la
+        incidencia de vaginitis, debido a que se incrementaron los casos en los últimos años. Al año
+        de aplicar el procedimiento, se encontró que los casos de vaginitis habían disminuido 5%.
+        Dentro del proceso de administración en salud, los resultados reportados corresponden a la
+        etapa de:
+        `,
+        ['Planeación', 'Organización', 'Control', 'Dirección'],
+        'Control',
+        `Proceso Administrativo
+        Planeación: ¿Qué se va a hacer? (Prevenir), Objetivos (disminuir la alta tasa de
+        embarazos adolescentes eventualmente), políticas, diagnóstico, programas y presupuestos
+        Organización: ¿Cómo se dividirá el trabajo? Unidades de mando y procedimientos
+        Integración: ¿Quién y con qué se va a hacer? Personal: selección, contratación,
+        capacitación, materiales, finanzas, compras, producción, entre otros.
+        Dirección: ¿Cómo se debe hacer? Autoridad, mando, toma de decisiones, supervisión,
+        delegación, instrucciones y comunicación.
+        Control: ¿Cómo se hizo? (Se implementó un programa) Evaluación (los casos de vaginitis
+        disminuyeron 5%), comparación, determinación de las desviaciones, corrección de fallas y
+        retroalimentación.`
+    ),
+    new Question(
+        `Una mujer de 51 años fue referida a la unidad de patología mamaria. El resultado de la
+        punción informa carcinoma ductal infiltrante, por lo que se le indica tratamiento con
+        poliquimioterapia adyuvante al que se siguieron varias sesiones de radioterapia. Pasados 4
+        años. La paciente solicita un resumen clínico de su manejo, para iniciar un proceso legal en
+        contra de la institución por complicaciones. ¿Qué documento del expediente clínico
+        proporciona los datos necesarios para lo que requiere la paciente?`,
+        ['Historia Clínica',
+        'Nota de Interconsulta',
+        'Nota postoperatoria',
+        'Nota de egreso'],
+        'Historia Clínica',
+        `Segun la NOM 004 Del Expediente Clínico
+        4.10 Resumen clínico: al documento elaborado por un médico, en el cual, se registran los
+        aspectos relevantes de la atención médica de un paciente, contenidos en el expediente
+        clínico.
+        Deberá tener como mínimo: padecimiento actual, diagnósticos, tratamientos, evolución,
+        pronóstico y estudios de laboratorio y gabinete.
+        La Historia Clínica debe contar con: Interrogatorio, EF, Resultados previos y actuales de
+        estudios de laboratorio, gabinete y otros, Diagnósticos o problemas clínicos, Pronóstico,
+        Indicación terapéutica, Nota de evolución, Evolución y actualización del cuadro clínico,
+        Resultados relevantes de los estudios de los servicios auxiliares de diagnóstico y
+        tratamiento que hayan sido solicitados previamente, Diagnósticos o problemas clínicos,
+        Pronóstico, Tratamiento e indicaciones médicas, Nota de Interconsulta, Criterios
+        Diagnósticos, Plan de estudios, Sugerencias Diagnosticas y Tratamiento.
+        `
+    ),
+    new Question(
+        `Una mujer con 33 semanas de embarazo y artritis ingresa al servicio de urgencias
+        posterior a una caída de su propia altura, que le produce artralgia en rodilla derecha, dolor
+        intenso, rigidez, y dificultad al caminar Con base en la NOM del expediente clínico, la nota
+        médica de urgencias de esta paciente debe incluir:`,
+        ['Nota de Referencia',
+        'Nota de evolución',
+        'Pronostico',
+        'Nota de Traslado'],
+        'Nota de evolución',
+        `Segun la NOM 004 Del Expediente Clínico
+        7. De las notas médicas en urgencias
+        Inicial: Deberá elaborarla el médico y deberá contener lo siguiente: Fecha y hora en que se
+        otorga el servicio, SV, Motivo de la atención, Resumen del interrogatorio, exploración física
+        y estado mental, en su caso, Resultados relevantes de los estudios de los servicios
+        auxiliares de diagnóstico y tratamiento que hayan sido solicitados previamente,
+        Diagnósticos o problemas clínicos, Tratamiento y pronóstico, Nota de evolución: Deberá
+        elaborarla el médico cada vez que proporciona atención al paciente.
+        En los casos en que el paciente requiera interconsulta por médico especialista, deberá
+        quedar por escrito, tanto la solicitud, que deberá realizar el médico solicitante, como la nota
+        de interconsulta que deberá realizar el médico especialista`
+    ),
+    new Question(
+        `Un hombre de 30 años es trasladado por una ambulancia a un hospital de traumatología
+        con una herida de proyectil disparado con arma de fuego, localizada en mesogastrio y
+        penetrante de cavidad abdominal. El tratamiento es quirúrgico, con diagnostico
+        postoperatorio de laceración y reparación de los vasos abdominales, así como perforación
+        de colon descendente sin extracción de la bala. Su evolución es tórpida. Con base en la
+        NOM de expediente clínico, la nota preoperatoria de esta paciente debe incluir:`,
+        ['El consentimiento informado',
+        'La operación planeada',
+        'Los incidentes',
+        'Nombre del responsable de la cirugía.'],
+        'La operación planeada',
+        `Nota Preoperatoria.
+        Deberá elaborarla el cirujano que va a intervenir al paciente, incluyendo a los cirujanos
+        dentistas (excepto el numeral 8.5.7 para estos últimos) y deberá contener como mínimo:
+        8.5.1 Fecha de la cirugía;
+        8.5.2 Diagnóstico;
+        8.5.3 Plan quirúrgico;
+        8.5.4 Tipo de intervención quirúrgica;
+        8.5.5 Riesgo quirúrgico;
+        8.5.6 Cuidados y plan terapéutico preoperatorios; y
+        8.5.7 Pronóstico.
+        8.6 Un integrante del equipo quirúrgico podrá elaborar un reporte de la lista de verificación
+        de la cirugía, en su caso, podrá utilizar la lista Organización Mundial de la Salud en esta
+        materia para dicho propósito.
+        8.7 Nota preanestésica, vigilancia y registro anestésico.`
+    ),
+    new Question(
+        `El diagnóstico de salud de una comunidad rural marginada muestra un incremento en la
+        incidencia de casos de neonatos con defectos del tubo neural respecto a la media nacional.
+        Sin embargo se confirmó que en la zona no hay generadores de desechos tóxicos que
+        expliquen este fenómeno. ¿Qué programa del Sistema Nacional de Salud se debe aplicar
+        para llevar a cabo las acciones específicas?
+        `,
+        ['Atención a la salud de la infancia y la adolescencia',
+        'Entornos y comunidades saludables',
+        'Salud materna y perinatal',
+        'Promoción de la Salud y determinantes sociales.'],
+        'Salud materna y perinatal',
+        `NOM 007 Para Atención de embarazo, parto y puerperio
+        5.2.1.13 Para prevenir defectos del tubo neural, es importante prescribir 0.4 mg de ácido
+        fólico y micronutrientes desde el periodo, mínimo tres meses previos a la primera consulta y
+        durante todo el embarazo.`
+    ),
+    new Question(
+        `Un niño de 13 años es llevado a consulta por presentar fatiga, cansancio y cefalea
+        intensa. La madre refiere que el cuadro inició hace un mes y que su rendimiento escolar se
+        ha visto afectado; además tuvo problemas por consumo de alcohol y peleas con sus
+        compañeros. En la exploración física se le observa desnutrido con peso bajo para su talla,
+        se identifica reflejo de ojo banco y desviación de ojo izquierdo. En el miembro inferior hay
+        una herida cicatrizada que el paciente refiere haberse realizado con una lámina,
+        probablemente oxidada. ¿Cuál es el programa del Sistema Nacional de Salud que debe
+        atender lo prioritario?`,
+        ['Salud para la infancia y la Adolescencia',
+        'Cáncer en la infancia y la adolescencia',
+        'Prevención social de la violencia y la delincuencia',
+        'Vacunación Universal.'],
+        'Prevención social de la violencia y la delincuencia',
+        `Programa nacional para la prevención social de la violencia y la delincuencia
+        La elaboración y desarrollo de las políticas de prevención social de la violencia y la
+        delincuencia requiere que los servidores públicos cuenten con conocimientos que les
+        permitan identificar este tipo de situaciones a partir de los factores que las generan, así
+        como sus causas y consecuencias, más allá de criminalizar a las personas que cometen
+        actos de violencia o delincuencia.
+        Por ende, los retos que se identifican para la siguiente administración son:
+        -Establecer estrategias de coordinación entre las distintas secretarías involucradas en la
+        atención de aquellos factores que podrían generar violencia y delincuencia.
+        -Crear mecanismos que permitan la coordinación entre los tres órdenes de gobierno y
+        fomentar la participación activa de la ciudadanía`
+    ),
+    new Question(
+        `En una comunidad urbana se ha incrementado la incidencia de abortos
+        espontáneos. Las autoridades de salida deciden emprender acciones a fin de
+        disminuir dicha incidencia. ¿Qué programa de salud será de utilidad para disminuir
+        el número de casos en esta comunidad?`,
+        ['Salud sexual y reproductiva del adolescente',
+        'Planificación familiar y anticoncepción',
+        'Salud materna y perinatal',
+        'Prevención y atención a la violencia'],
+        'Salud materna y perinatal',
+        `De acuerdo con el programa de atención específica, Salud materna y perinatal,
+        abarca la atención en salud en etapas pre gestacionales, embarazo, puerperio y
+        el seguimiento de la madre y el recién nacido. Evitando conductas de riesgo para
+        la madre y para el recién nacido.`
+    ),
+
 ];
 export default questions;
