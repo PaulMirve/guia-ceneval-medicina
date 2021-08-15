@@ -2,11 +2,13 @@ import { Card, CardContent, FormControl, Typography, RadioGroup, Radio, FormCont
 import { Check, Clear } from '@material-ui/icons';
 import React from 'react';
 import { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import questions from '../Files/questions';
 
 export default function Home() {
     const [answers, setAnswers] = useState([]);
     const [isValidating, setIsValidating] = useState(false);
+    let { part } = useParams();
 
     const selectValue = (value, index) => {
         let ans = answers;
@@ -24,14 +26,24 @@ export default function Home() {
         setAnswers([]);
         setIsValidating(false);
     }
+
+    const getQuestionNumber = (index) => {
+        let number;
+        if (part > 1) {
+            number = index + 1 + ((part - 1) * 20);
+        } else {
+            number = index + 1;
+        }
+        return number
+    }
     return (
         <div>
-            {questions.map((q, index) => {
+            {questions.slice((part - 1) * 20, part * 20).map((q, index) => {
                 const { question, options, answer, explanation } = q;
                 return (
                     <Card key={index} style={{ marginTop: '20px' }}>
                         <CardContent>
-                            <Typography style={!isValidating ? { color: 'black' } : isValidating && answers[index] === answer ? { color: 'green' } : { color: "red" }} gutterBottom variant="h5" component="h3">{index + 1}) {question}</Typography>
+                            <Typography style={!isValidating ? { color: 'black' } : isValidating && answers[index] === answer ? { color: 'green' } : { color: "red" }} gutterBottom variant="h5" component="h3"> {getQuestionNumber(index)}) {question}</Typography>
                             <FormControl component="fieldset">
                                 <RadioGroup aria-label="gender" name="gender1">
                                     {
