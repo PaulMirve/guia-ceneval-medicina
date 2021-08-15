@@ -1,6 +1,6 @@
 import { Card, CardContent, FormControl, Typography, RadioGroup, Radio, FormControlLabel, Button, Icon, Paper } from '@material-ui/core';
 import { Check, Clear } from '@material-ui/icons';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import questions from '../Files/questions';
@@ -8,7 +8,11 @@ import questions from '../Files/questions';
 export default function Home() {
     const [answers, setAnswers] = useState([]);
     const [isValidating, setIsValidating] = useState(false);
-    let { part } = useParams();
+    let { part, section } = useParams();
+
+    useEffect(() => {
+        document.title = `Sección ${section} - Parte ${part}`;
+    });
 
     const selectValue = (value, index) => {
         let ans = answers;

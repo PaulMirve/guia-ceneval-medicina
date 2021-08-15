@@ -8,6 +8,7 @@ import {
 import Main from './Main';
 
 export default function App() {
+    document.title = 'Guia Ceneval';
     return (
         <Router history={history}>
             <div style={{ padding: '10px', fontFamily: 'Roboto, sans-serif' }}>
